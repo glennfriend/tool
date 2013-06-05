@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Language" content="zh-tw" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <script src="js/jquery.2.0.2.js"></script>
+    <script src="js/ace-0.2.0/src/ace-uncompressed.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/ace-0.2.0/src/theme-crimson_editor.js"></script>
+    <script src="js/ace-0.2.0/src/mode-javascript.js"></script>
+    <script src="js/ace-0.2.0/src/mode-html.js"></script>
+    <script src="js/ace-0.2.0/src/mode-css.js"></script>
+    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+    <div id="buttonBar"></div>
+    <div class="editor" id="showHtml"></div>
+    <div class="editor" id="showView">
+        <iframe id="canvasView" ></iframe>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        $(function() {
+
+            app.init();
+            
+            $.get('sample_list.php?' + new Date(), function(data) {
+                var list = data.split(",");
+                var html = '';
+                for( var key in list ) {
+                    var packageName = (list[key]);
+                    html += '<button onClick="app.loadPackage(\''+ packageName +'\');">'+ packageName +'</button>';
+                }
+                $("#buttonBar").html(html);
+            }, "text"); 
+
+        });
+    </script>
+
+</body>
+</html>

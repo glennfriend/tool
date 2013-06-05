@@ -1,0 +1,208 @@
+#textblock {
+	background:url(selection.gif);
+	padding:1px;
+}
+#textblock p {
+	margin:0;
+	padding:10px;
+	background:#fff;
+}
+#fruit {
+	background:url(selection.gif);
+	width:500px;
+	height:140px;
+	overflow:hidden;
+	position:relative;
+}
+#image {
+	background:url(selection.gif);
+	width:400px;
+	height:360px;
+	overflow:hidden;
+	position:relative;
+}
+#divmask {
+	background:url(selection.gif);
+	width:500px;
+	height:180px;
+	overflow:hidden;
+	position:relative;
+}
+
+#selectani {
+	background:url(selection.gif);
+	width:300px;
+	height:188px;
+	overflow:hidden;
+	position:relative;
+}
+#image img,
+#fruit img,
+#divmask img,
+#selectani img {
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#selectmenu {
+	clear:left;
+	float:left;
+	list-style:none;
+	margin:0;
+	margin:0 20px 20px 0;
+	width:10em;
+}
+#selectmenu li {
+	float:left;
+	clear:left;
+	list-style:none;
+	background:url(selection.gif);
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#selectmenu li a {
+	background:#BEF5C5;
+	display:block;
+	clear:left;
+	padding:5px 0;
+	text-align:center;
+	border-top:1px solid #E2FEE6;
+	border-bottom:1px solid #91D799;
+	text-decoration:none;
+}
+#selectmenu li a:hover {
+	padding:5px 9px;
+	margin:1px;
+	font-weight:bold;
+	border:0;
+	color:#000;
+}
+
+#georgebush {
+	width:400px;
+	height:306px;
+	background:url(selection.gif);
+	overflow:hidden;
+	position:relative;
+	margin-bottom:10px;
+}
+#georgebush a {
+	float:left;
+	display:block;
+	width:400px;
+	height:306px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:url(selection-george-bush.gif) top no-repeat;
+}
+#georgebush a:hover {
+	background:url(selection-george-bush.gif) bottom no-repeat;
+}
+#georgebush a strong {
+	display:none;
+}
+
+#tablerows {
+	border-collapse:collapse;
+	border:1px solid #000;
+}
+#tablerows th {
+	padding:.2em .8em;
+	background:#DBE9FF;
+	color:#000;
+}
+#tablerows td {
+	padding:0;
+	text-align:center;
+	background:url(selection.gif);
+}
+#tablerows tr.out td div {
+	background:#fff;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+#tablerows tr.over td div {
+	background:#fff;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+#tablerows tr.out td div.left {
+	padding-left:1px;
+}
+#tablerows tr.over td div.left {
+	margin-left:1px;
+}
+#tablerows tr.out td div.right {
+	padding-right:1px;
+}
+#tablerows tr.over td div.right {
+	margin-right:1px;
+}
+
+#selectradios {
+	clear:left;
+	float:left;
+	margin:10px 0 20px 0;
+	background:url(selection.gif);
+	width:13em;
+}
+#selectradios form,
+#selectradios fieldset {
+	display:block;
+	margin:0;
+	padding:0;
+	border:0;
+}
+#selectradios div {
+	border:1px solid #fff;
+	padding:.2em .5em;
+	background:#fff;
+}
+.s1 .s1,
+.s2 .s2,
+.s3 .s3 {
+	border:0 !important;
+	margin:1px !important;
+}
+
+#textfields {
+	margin:10px 0 20px 0;
+	width:13em;
+}
+#textfields form,
+#textfields fieldset {
+	display:block;
+	margin:0;
+	padding:0;
+	border:0;
+}
+#textfields .f1,
+#textfields .f2,
+#textfields .f3 {
+	width:100%;
+	margin:.2em 0 .5em 0;
+	padding:1px;
+	background:#7F9DB9;
+}
+#textfields .f1 div,
+#textfields .f2 div,
+#textfields .f3 div {
+	background:#fff;
+	padding:0 0 0 .2em;
+	overflow:hidden;
+}
+#textfields input {
+	margin:0;
+	padding:0;
+	border:0;
+	width:100%;
+}
+
+.f1 .f1,
+.f2 .f2,
+.f3 .f3 {
+	background:url(selection.gif) !important;
+}

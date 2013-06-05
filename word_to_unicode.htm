@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-TW" xml:lang="zh-TW" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-9" />
+<title>HTML unicode</title>
+<script type="text/javascript">
+    <!--
+function convert()
+{
+  str = document.conv.str.value;
+  result = "";
+
+  for(i = 0 ; i < str.length ; i++) {
+    c = str.charAt(i);
+    if((' ' <= c && c <= '~') || (c == '\r') || (c == '\n')) {
+      if(c == '&') {
+        cstr = "&amp;";
+      } else if(c == '<') {
+        cstr = "&lt;";
+      } else if(c == '>') {
+        cstr = "&gt;";
+      } else {
+        cstr = c.toString();
+      }
+    } else {
+      cstr = "&#" + c.charCodeAt().toString() + ";";
+    }
+      result = result + cstr;
+  }
+
+  document.conv.result.value = result;
+  document.conv.result.focus();
+  document.conv.result.select();
+
+  return 0;
+}
+-->
+</script>
+</head>
+<body>
+<H1>HTML unicode</H1>
+<form action="#" id="conv" name="conv">
+    Original: <br/>
+    <textarea id="str" cols="80" rows="10" onchange="convert();" onblur="convert();"></textarea><br/>
+    <br/>Charcode: <br/>
+    <textarea id="result" cols="80" rows="10" onfocus="convert();"></textarea><br/>
+    <input type="button" value="Convert" onclick="convert();" onkeypress="convert" />
+    &nbsp;&nbsp;<input type="reset" value="Clear"/><br/>
+</form>
+<hr />
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!--
+<FONT face=Arial,Geneva size=-1>You can use this form to check the availability of domain names all over the world. Simply enter a single word below and a search will begin. Please be sure not to enter any punctuation characters or TLDs below. Please note that this search may take several minutes.
+<P>Click <A href="[>SCRIPT_NAME<]">here</A> to return to the normal Domain Name Lookup.
+-->
+<P></FONT></P></TD></TR>
+<TR>
+<TD><FONT face=Arial,Geneva size=-1>
+<P>
+<CENTER>
+<FORM action="[>SCRIPT_NAME<]" method=post>
+<TABLE border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE border=0 cellPadding=1>
+<TBODY>
+<TR>
+<TD vAlign=bottom><FONT face=ARIAL size=-1>&nbsp;&nbsp;&nbsp;請輸入您要查詢網域名:</FONT><BR><INPUT maxLength=57 name=domain type=text><INPUT name=do_global type=hidden value=1>
+</TD></FONT></TD></TR>
+<TR>
+<TD align=middle colSpan=3><INPUT type=submit value="查詢">
+<INPUT type=reset value=清除>
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM>
+請輸入您要查詢的網域名，如您要查詢<font color=blue> yahoo.com.tw</font>，您只需輸入<font color=red>yahoo</font><br>
+此網頁會自動列出有關yahoo的相關網域名<br>
+(<font color=blue> yahoo.com , yahoo.net , yahoo.org , yahoo.biz , yahoo.info , yahoo.com.tw , yahoo.org.tw</font>)<br>
+並列出是否已被註冊<br>
+<font color=red size=3>查詢需5~10秒的時間，請耐心等候查詢結果</font>

@@ -1,0 +1,17 @@
+<FONT FACE="Arial,Geneva" SIZE="-1">
+<b>查詢網域 [>DOMAIN<].[>EXT<] 發生錯誤</b><br>
+<br clear=all>
+<b>網域的規則如下:</b>
+<UL>
+<LI><b>在網域的裡請勿使用"www.""www."是一個次網域名稱，並不是一個網域</b>
+<LI><b>網域合法的字元為 數字0到9，字母a到z以及符號-，不能使用底線_、空白以及點.</b>
+</ul>
+<a href=mwhois.php?do_global=1><font size=3 color=blue>按這裡重新查詢</font></a><br>
+<p><br><p>
+<b>提醒您，查詢網域時</b><br clear=all><br>
+<UL>
+<li><b>網域不要太短或太長</b> 網址長度為 2字元到57字元
+<li><b>網域不能是符號-開頭或結尾</b>也不能是二個符號-在一起，像"--"就不行
+</ul>
+<br clear=all>
+</font>

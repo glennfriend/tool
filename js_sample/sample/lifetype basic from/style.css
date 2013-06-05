@@ -1,0 +1,22 @@
+.lt_basic_form{
+    word-break:break-all; word-wrap:break-word; table-layout:fixed;
+    border:1px solid #000;
+    width:800px;
+}
+.lt_basic_form_td1{
+    width:20%;
+    vertical-align:top;
+    text-align:right;
+    line-height: 30px;
+}
+.lt_basic_form_td2{
+    width:80%;
+    vertical-align:top:;
+    text-align:left;
+
+}
+.lt_basic_form_td_help{
+    font-size:12px;
+    font-family:細明體,新細明體,Arial;
+    color:#f00;
+}

@@ -1,0 +1,18 @@
+<style type="text/css">
+    .clearfix:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+    .clearfix { *zoom:1; }
+
+    .left { float:left; }
+    .warp { border:1px solid blue; width:600px; margin:30px auto 5px; background:#F5F5F5; }
+    .main { height:60px; width:50%; background:#FFE3D7; }
+    .side { width:20%; background:lightblue; }
+    .footer { border:1px solid #CCC; background:#EEE; width:600px; margin:5px auto 30px; }
+</style>
+
+<div class="warp clearfix">
+    <div class="main left">.main： warp自己閉合浮動, 所以footer不用再清除浮動了(float:left)</div>
+    <div class="side left">.side： 我也浮動了(float:left)</div>
+</div>
+<div class="footer">.footer： 通過 .clearfix 已經<strong>閉合浮動</strong>了</div>
+
+

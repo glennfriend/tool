@@ -1,0 +1,63 @@
+<style type="text/css">
+    .gallery_frame {
+        margin: 0 auto;
+        padding: 0;
+        width: 607px;
+        font: 14px; 細明體,Arial, Helvetica, sans-serif;
+    }
+    .gallery_frame img {
+        border: none;
+    }
+    .gallery_ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .gallery_ul li {
+        padding: 10px;
+        margin: 0;
+        float: left;
+        position: relative;
+        width: 180px;
+        height: 130px;
+    }
+    .gallery_ul li:hover img {
+        border-color: #000;
+    }
+    .gallery_ul img {
+        background: #fff;
+        border: solid 1px #888;
+        padding: 5px;
+    }
+    .gallery_ul em {
+        background: #fff url(sample_imgs/grey-gradient.gif) repeat-y;
+        color: #000;
+        font-style: normal;
+        padding: 2px 10px;
+        display: block;
+        position: absolute;
+        top: 110px;
+        left: 9px;
+        border: 1px solid #999;
+        border-left-color: #888;
+    }
+    .gallery_ul a {
+        text-decoration: none;
+    }
+    .gallery_ul a:hover em {
+        background: #fff url(sample_imgs/grey-gradient.gif) repeat-y;
+        border-color: #c25b08;
+        filter:alpha(opacity=15);
+        -moz-opacity:.15;
+        opacity:.15;
+    }
+</style>
+<div class="gallery_frame">
+    <ul class="gallery_ul">
+        <li><a href="#"><em>Abstract</em><img src="sample_imgs/圖上帶字/1.jpg" alt="image" /></a></li>
+        <li><a href="#"><em>today is good day</em><img src="sample_imgs/圖上帶字/2.gif" alt="image" /></a></li>
+        <li><a href="#"><em>中文字四五六七八九</em><img src="sample_imgs/圖上帶字/3.gif" alt="image" /></a></li>
+        <li><a href="#"><em>^______^</em><img src="sample_imgs/圖上帶字/4.jpg" alt="image" /></a></li>
+        <li><a href="#"><em></em><img src="sample_imgs/圖上帶字/5.jpg" alt="image" /></a></li>
+    </ul>
+</div>

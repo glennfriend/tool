@@ -1,0 +1,7 @@
+<FORM METHOD="POST" ACTION="[>SCRIPT_NAME<]">
+<INPUT NAME="domain" SIZE=25 MAXLENGTH=57></td><td valign=top>
+[>EXT_HTML_LIST<]
+</td></tr><tr><td valign=top colspan="2">
+<input type="submit" value="Search">
+<input type="reset" value="Clear">
+</FORM>

@@ -1,0 +1,34 @@
+<style type="text/css">
+    .block_wide {
+        background: #ffffff url("sample_imgs/區塊1/background.gif") no-repeat;
+        width:850px;  height:130px;  /* 寬與高度設成與圖片一樣,可以確保整個方塊設定的一致性 */
+        margin:0px; padding:0px;
+        overflow: hidden;
+    }
+    .block_wide img{
+        margin: 54px 15px 5px 25px;
+        float:left;
+        width:60px; height:60px;
+        border:0px;
+    }
+    .block_wide_item       { margin-top:15px; margin-left:120px; }
+    .block_wide_info       { height:30px; }
+    .block_wide_info_left  { float:left;  font-weight:bold; }
+    .block_wide_info_right { float:right; margin-right: 20px; }
+    .block_wide_topic      { font-weight:bold;  }
+    .block_wide_text       { margin-top:0px;    }
+</style>
+<div class="block_wide">
+    <img src="sample_imgs/區塊1/60x60.gif" />
+    <div class="block_wide_item">
+        <div class="block_wide_info">
+            <span class="block_wide_info_left">[user]</span>
+            <span class="block_wide_info_right">[date]</span>
+        </div>
+        <div class="block_wide_topic">[topic]</div>
+        <div class="block_wide_text">
+            [text]<br />[text]<br />[text]<br />[text]<br />[text]<br />
+            [text]<br />[text]<br />[text]<br />[text]<br />[text]<br />
+        </div>
+    </div>
+</div>
