@@ -72,8 +72,9 @@ app.renderView = function()
 app.parseEvent = function( obj )
 {
     var result = {
-        'addCharCode':    null,
-        'removeCharCode': null,
+        'addText':    null,
+        'removeText': null,
+        'lastChar':   null
     };
 
     if ( typeof(obj)           !== "undefined" &&
@@ -81,14 +82,17 @@ app.parseEvent = function( obj )
     )
     {
         if ( obj.data.action==='insertText' ) {
-            result.addCharCode = String.charCodeAt( obj.data.text );
+            result.addText = obj.data.text;
+            var len = result.addText.length
+            if ( len > 0 ) {
+                result.lastChar = result.addText[len-1];
+            }
         }
         else if ( obj.data.action==='removeText' ) {
-            result.removeCharCode = String.charCodeAt( obj.data.text );
+            result.removeText = obj.data.text;
         }
     }
-    
-    // console.log(result);
+
     return result;
 }
 
@@ -130,7 +134,7 @@ app.init = function()
     app.cssEditor.getSession().setMode(new cssMode());
     app.cssEditor.getSession().on('change', function(o) {
         var result = app.parseEvent( o );
-        if ( result.addCharCode === 10 || result.addCharCode === 13 ) {
+        if ( result.lastChar === "\n" ) {
             app.renderView();
         }
     });
