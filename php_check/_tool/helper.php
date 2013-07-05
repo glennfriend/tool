@@ -1,6 +1,6 @@
 <?php
 
-set('get_defined_vars', get_defined_vars() ); //先讀取使用過的變數
+// set('get_defined_vars', get_defined_vars() ); //先讀取使用過的變數
 init();
 return;
 
@@ -13,10 +13,17 @@ function output( $vars )
     echo "================================================================================";
     echo "<br />\n";
 
-    $originVars = get('get_defined_vars' );
-    $diffs = array_diff( $vars, $originVars );
+    unset(
+        $vars['GLOBALS'],
+        $vars['_POST'],
+        $vars['_GET'],
+        $vars['_FILES'],
+        $vars['_SERVER'],
+        $vars['_COOKIE']
+    );
+
     echo '<pre style="background-color:#def;color:#000;text-align:left;font-size:10px;font-family:dina,GulimChe;">';
-    var_export( $diffs );
+    var_export( $vars );
     echo "</pre>\n";
 
     echo "================================================================================";

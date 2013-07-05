@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+.editor {
+    
+}
+#buttonBar { 
+    
+}
+
+#showJs {
+    height: 97%;
+    width: 50%;
+}
+#showView {
+    height: 100%;
+    width: 50%;
+    margin-left: 50%;
+}
+
+#info {
+    width: 96%;
+    min-height: 760px;
+    margin: 0 0 0 10px;
+    border: none;
+    outline: 1px dashed #ccc;
+}
+#canvasView {
+    height:20px;
+}
