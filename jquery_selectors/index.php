@@ -50,12 +50,11 @@
 <body>
 
 <input type="text" value="" id="command" />
-
-<div id="source" class="sh_html"><?php echo $html; ?></div>
-
+<section id="source"><code><?php echo $html; ?></code></section>
 
 <pre>
 h2 ~ p
+div *
 li[class|="baby"]
 .food:not(h2)
 div #line3 > h2 > span
