@@ -54,11 +54,15 @@
 
 <pre>
 h2 ~ p
+h2 + p
+p + h2
 div *
 li[class|="baby"]
+li:nth-child(3n + 1)
 .food:not(h2)
 div #line3 > h2 > span
 div #line3 > h2 span
+input[type=text]:disabled
 
 http://milanlandaverde.com/css-quiz
 </pre>
