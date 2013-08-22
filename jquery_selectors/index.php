@@ -57,6 +57,7 @@ h2 ~ p
 h2 + p
 p + h2
 div *
+ul [class^=bab]
 li[class|="baby"]
 li:nth-child(3n + 1)
 .food:not(h2)
