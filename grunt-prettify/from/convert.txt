@@ -1,0 +1,101 @@
+
+<div class="side-block">
+  <div class="slideshow">
+    <h2>Celebrity Brides</h2>
+    <div class="slideset">
+      <div class="slide">
+        <div class="visual"> <a class="fancy-video" href="http://www.youtube.com/embed/3gFfMXNqrKk?feature=player_embedded&autoplay=1"><img src="images/img4.png" width="188" height="121" alt="image description" /></a> </div>
+        <blockquote class="blockquote"> <q>&quot;Comfort, affordability, everything in one garment are qualities that would make up her perfect dress.&quot;</q> <cite>Bobbi has worked with Jonny Depp in "Pirates of the carribeans"</cite> </blockquote>
+      </div>
+      <div class="slide">
+        <div class="visual"> <a class="fancy-video" href="http://www.youtube.com/embed/3gFfMXNqrKk?feature=player_embedded&autoplay=1"><img src="images/img5.png" width="188" height="121" alt="image description" /></a> </div>
+        <blockquote class="blockquote"> <q>&quot;Kristin says what's important in a dress is "the way it looks on your body and the fact that it shows off your personality.&quot;</q> <cite>Kristin Mccoy starred in "How I met your mother"</cite> </blockquote>
+      </div>
+      <div class="slide">
+        <div class="visual"> <a class="fancy-video" href="http://www.youtube.com/embed/3gFfMXNqrKk?feature=player_embedded&autoplay=1"><img src="images/img6.png" width="188" height="121" alt="image description" /></a> </div>
+        <blockquote class="blockquote"> <q>&quot;Kristina says a gown that "shapes you, and feels like you...that's a hit, that's a great dress.&quot;</q> <cite>Kristina Hughes "Miss Connecticut, USA"</cite> </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="side-block">
+  <div class="slideshow2">
+    <div class="slideset">
+      <div class="slide">
+        <div class="heading">
+          <h2>Our Showroom Los Angeles, CA</h2>
+        </div>
+        <div class="visual"> <a class="fancy-video" href="http://www.youtube.com/embed/f-lT1ywaKbk?feature=player_embedded&autoplay=1"><img src="images/img7.jpg" width="188" height="121" alt="image description" /></a> </div>
+      </div>
+      <div class="slide">
+        <div class="heading">
+          <h2>Our Showroom New York, NY</h2>
+        </div>
+        <div class="visual"> <a class="fancy-video" href="http://www.youtube.com/embed/4gEw5V00iNs?feature=player_embedded&autoplay=1"><img src="images/img8.jpg" width="188" height="121" alt="image description" /></a> </div>
+      </div>
+      <div class="slide">
+        <div class="heading">
+          <h2>Why SimplyBridal</h2>
+        </div>
+        <div class="visual"> <a class="fancy-video" href="http://www.youtube.com/embed/EAU-Jc4TxQE?feature=player_embedded&autoplay=1"><img src="images/img9.jpg" width="188" height="121" alt="image description" /></a> </div>
+      </div>
+      <div class="slide">
+        <div class="heading">
+          <h2>Bridal Expo Los Angeles, CA</h2>
+        </div>
+        <div class="visual"> <a class="fancy-video" href="http://www.youtube.com/embed/oAkOvw9_6po?feature=player_embedded&autoplay=1"><img src="images/img10.jpg" width="188" height="121" alt="image description" /></a> </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<div class="side-block">
+ <div fb-iframe-plugin-query="app_id=511153322237002&amp;header=true&amp;href=http%3A%2F%2Fwww.facebook.com%2Fsimplybridal&amp;locale=en_US&amp;sdk=joey&amp;show_faces=true&amp;stream=false&amp;width=190" fb-xfbml-state="rendered" class="fb-like-box fb_iframe_widget " data-href="http://www.facebook.com/simplybridal" data-width="190" data-show-faces="true" data-border-color="9ca3b3" data-stream="false" data-header="true"><span style="vertical-align: bottom; width: 190px; height: 271px;"><iframe class="" src="http://www.facebook.com/plugins/like_box.php?app_id=511153322237002&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D40%23cb%3Df3910a4c0673fa%26domain%3Dwww.simplybridal.com%26origin%3Dhttp%253A%252F%252Fwww.simplybridal.com%252Ff30726d1d607c14%26relation%3Dparent.parent&amp;header=true&amp;href=http%3A%2F%2Fwww.facebook.com%2Fsimplybridal&amp;locale=en_US&amp;sdk=joey&amp;show_faces=true&amp;stream=false&amp;width=190" style="border: medium none; visibility: visible; width: 190px; height: 271px;" title="fb:like_box Facebook Social Plugin" allowtransparency="true" name="fa4c7d4ee2f948" frameborder="0" height="1000px" scrolling="no" width="190px"></iframe></span></div>
+</div>
+<div class="side-block">
+  <ul class="sub-nav">
+    <li><a href="http://www.simplybridal.com/shop/who-we-are/">Who we are</a></li>
+    <li><a href="http://www.simplybridal.com/shop/style-guides/">Style guides</a></li>
+    <li><a href="http://www.simplybridal.com/shop/measurements/">Find your size</a></li>
+    <li><a href="http://www.simplybridal.com/shop/wedding-dress-preservation/">Dress preservation</a></li>
+    <li><a href="http://www.simplybridal.com/shop/help/">Help</a></li>
+    <li><a href="http://www.simplybridal.com/shop/frequently-asked-questions/">Faq</a></li>
+  </ul>
+</div>
+<div class="form-block">
+  <form class="subscribe-form" action="#">
+    <fieldset>
+    <div class="heading">
+      <h2>Sign Up for Our</h2>
+      <h3>Newsletter</h3>
+    </div>
+    <div class="row">
+      <input type="text" value="enter email" />
+      <input type="submit" value="Subscribe" />
+    </div>
+    </fieldset>
+  </form>
+</div>
+<div class="side-block">
+  <div class="partner-block">
+    <div class="holder">
+      <div class="partner-holder">
+        <h2>Secure Shopping!</h2>
+        <h3>No Risk Guaranteed!</h3>
+        <div class="visual"> <img src="images/img12.jpg" width="98" height="76" alt="image description" /> </div>
+      </div>
+      <div class="partner-holder">
+        <h2>Secure Shopping!</h2>
+        <div class="visual"> <img src="images/img13.jpg" width="183" height="28" alt="image description" /> </div>
+      </div>
+      <div class="partner-holder">
+        <div class="visual"> <img src="images/img14.jpg" width="94" height="188" alt="image description" /> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="side-block">
+  <div class="partner-block">
+    <div class="visual"> <a href="http://invitations.simplybridal.com"><img src="images/side banner-1.jpg" alt="image description" /></a> </div>
+  </div>
+</div>
