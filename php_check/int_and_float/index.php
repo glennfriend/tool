@@ -11,6 +11,9 @@
     // 7
     $value3 = (int) ( (0.1+0.7) * 10 );
 
+    //
+    echo ( $value2 === $value3 ) ? 'true' : 'false';
+
     //// end ////
     output(get_defined_vars()); ////
 ?>
