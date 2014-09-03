@@ -7,10 +7,7 @@ if( !$_POST['id'] || !$_POST['t'] || !$_POST['e'] ) {
 
     switch($_POST['t']) {
         case 'preg_replace':
-            $show=preg_replace( $_POST['e'] , '★' , $_POST['v'] );
-            break;
-        case 'ereg':
-            $show=ereg( $_POST['e'] , $_POST['v'] );
+            $show=preg_replace( $_POST['e'] , '<span class="remove">-</span>' , $_POST['v'] );
             break;
         case 'preg_match':
             $show=preg_match( $_POST['e'] , $_POST['v'] );
