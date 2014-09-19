@@ -1,7 +1,5 @@
 <?php
 
-    
-
     $pages = [
         ['常用功能 group & properties show','group/'],
         ['js beautify','js/js_beautify/'],
@@ -35,7 +33,8 @@
     <meta http-equiv="Content-Language" content="zh-tw" />
 </head>
 <body>
-    <ul><?php
+    <ul>
+    <?php
         foreach ( $pages as $page ) {
             if ( !$page['name'] ) {
                 continue;
@@ -44,7 +43,8 @@
                 <li><a href="{$page['url']}">{$page['name']}</a></li>
 EOD;
         }
-    ?></ul<
+    ?>
+    </ul>
     
 </body>
 </html>
