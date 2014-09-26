@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="#">
+        <title>Simply Bridal</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <!-- normalize.css works like reset.css -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- social icons css -->
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/bootstrap-social.css" rel="stylesheet">
+        <!-- jqueries css -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+        <link rel="stylesheet" href="css/jquery.maximage.css" type="text/css" />
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!--[if IE]>
+            <script type="text/javascript">
+                var console = { log: function() {} };
+            </script>
+        <![endif]-->
+        <!--[if IE]>
+            <script type="text/javascript">
+                 var console = { log: function() {} };
+            </script>
+        <![endif]-->
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <!--<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>-->
+        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+        <!-- Add fancyBox -->
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <link rel="stylesheet" href="js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    </head>
+    <body>
+        <div class="preloader">
+            <img src="images/loader.gif">
+        </div>
+        <div id="fullpage" style="visibility: hidden;">
+            <!-- navbar start  -->
+            <div class="navbar-default navbar-fixed-top header">
+                <div class="container cover">
+                    <div class="clearfix"></div>
+                    <nav class="navbar" role="navigation">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navigation">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#">Simply Bridal</a>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="main_navigation">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">WEDDING DRESS</a>
+                                    </li>
+                                    <li><a href="#">BRIDESMAIDS DRESSES</a>
+                                    </li>
+                                    <li><a href="#">VEILS</a>
+                                    </li>
+                                    <li><a class="invite" href="#">INVITATIONS & GIFTS</a>
+                                    </li>
+                                    <li>
+                                        <form class="navbar-form navbar-left" role="search">
+                                            <div class="form-group input-group">
+                                                <input type="text" class="form-control" placeholder="Search">
+                                                <span class="input-group-btn">
+                                                    <button type="submit" class="btn btn-default btn-search">
+                                                        <span class="glyphicon glyphicon-search"></span>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                        </form>
+                                    </li>
+                                    <li><a href="#">ACCOUNT</a>
+                                    </li>
+                                    <li class="cart">
+                                        <a href="#">
+                                            <i class="shopping-cart"></i>CART
+                                            <span>(0)</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse-->
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+            <!-- navbar end -->
+            <!-- section0 start -->
+            <div class="section cuture" id="section0">
+                <div class="cycle-nav" id="cycle-nav">
+                    <ul></ul>
+                </div>
+                <div class="maximage maximage1">
+                    <!-- first slide -->
+                    <div>
+                        <img src="images/slide_cuture.jpg" alt="" width="1600" height="893" />
+                        <div class="in-slide-content" style="display:none;">
+                            <div class="centerdiv">
+                                <h1 class="big-title">Couture</h1>
+                                <h3 class="big-title-sub">Inspiration by SimplyBridal</h3>
+                                <p class="sec-detail">SimplyBridal features fashion forward bridal designs
+                                    <br>at an affordable price that you'll simply love.</p>
+                                <a href="/shop/wedding-dresses/" class="btn btn-default">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- first slide end-->
+                    <!-- second slide -->
+                    <div>
+                        <img src="images/slide_classic.jpg" alt="" width="1600" height="893" />
+                        <div class="classic_slide inner-slide">
+                            <div class="content">
+                                <h1 class="big-title">Classic</h1>
+                                <p class="sec-detail">At SimplyBridal you can opt for a classic look
+                                    <br>that never goes out of style.</p>
+                                <a href="/shop/wedding-dresses/" class="btn btn-default">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second slide end-->
+                    <!-- third slide -->
+                    <div>
+                        <img src="images/slide_30day.jpg" alt="" width="1600" height="893" />
+                        <div class="thirtyday_slide inner-slide">
+                            <div class="content">
+                                <h1 class="big-title">30</h1>
+                                <h1 class="big-title">day</h1>
+                                <h1 class="big-title">returns</h1>
+                                <p class="sec-detail">Shop with confidence at SimplyBridal with our
+                                    <br>30 day risk free return policy.</p>
+                                <a href="/shop/wedding-dresses/" class="btn btn-default">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third slide end-->
+                    <!-- fourth slide -->
+                    <div>
+                        <img src="images/slide_losangeles.jpg" alt="" width="1600" height="893" />
+                        <div class="showroom_slide">
+                            <div class="content">
+                                <h1 class="big-title">Los Angeles</h1>
+                                <h1 class="big-title">showroom</h1>
+                                <p class="slide-sec-detail">LIMITED SHOWINGS.
+                                    <br>HUNDREDS OF EXCLUSIVE WEDDINGS DRESSES.</p>
+                                <a href="/shop/wedding-dresses/" class="btn btn-default">RESERVE SPACE NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth slide end-->
+                </div>
+                <div class="arrow-section">
+                    <p class="text-scroll">SCROLL DOWN
+                        <br>TO EXPLORE</p>
+                    <a data-menuanchor="secondPage" href="#secondPage" class="scroll-section">
+                        <img alt="scroll_arrow" src="images/scrol_arow.png" class="scrol_arow">
+                    </a>
+                </div>
+            </div>
+            <!-- section0 end -->
+            <!-- section1 start -->
+            <div class="section" id="section1">
+                <div id="collections" class="sb_collection inner-section inner-margin titles">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="sec-title">SB COLLECTION</h2>
+                            <p class="sec-detail">At SimplyBridal we believe every woman should have access to top
+                                <br>quality products no matter what their wedding budget may be.</p>
+                            <div class="col-sm-4 col-lg-4 colm">
+                                <img class="img-responsive" src="images/dress1.jpg" alt="Wedding Gowns">
+                                <span><a class="btn btn-default" href="/shop/wedding-dresses/?internal_src=sb_coll">WEDDING GOWNS</a>
+                                </span>
+                            </div>
+                            <div class="col-sm-4 col-lg-4 colm bridesmaids">
+                                <div class="sub-colm">
+                                    <img class="img-responsive half-height" src="images/bridemates1.jpg" alt="Bridesmaids & Special Occasion">
+                                    <span><a class="btn btn-default" href="/shop/bridesmaids/?internal_src=sb_coll">Bridesmaids & Special Occasion</a>
+                                    </span>
+                                </div>
+                                <div class="sub-colm">
+                                    <img class="img-responsive half-height" src="images/invitation1.jpg" alt="Invitations & Gifts">
+                                    <span><a class="btn btn-default" href="http://invitations.simplybridal.com/Weddings/?internal_src=sb_coll">Invitations & Gifts</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-lg-4 colm colm-break">
+                                <div class="sub-colm">
+                                    <img class="img-responsive" src="images/veil1.jpg" alt="The Veil & Accessories">
+                                    <span><a class="btn btn-default" href="/shop/accessories/veils/?internal_src=sb_coll">The Veil & Accessories</a>
+                                    </span>
+                                </div>
+                                <div class="sub-colm">
+                                    <img class="img-responsive" src="images/cathalog1.jpg" alt="The Catalog">
+                                    <span><a class="btn btn-default" href="/shop/free-catalog">The Catalog</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-section">
+                    <p class="text-scroll">SCROLL DOWN
+                        <br>TO SHOP</p>
+                    <a class="scroll-section" data-menuanchor="3rdPage" href="#3rdPage">
+                        <img class="scrol_arow" src="images/scrol_arow.png" alt="scroll_arrow">
+                    </a>
+                </div>
+            </div>
+            <!-- section1 start -->
+            <!-- section2 start -->
+            <div class="section" id="section2">
+                <div class="cycle-nav" id="cycle-nav2">
+                    <ul></ul>
+                </div>
+                <div class="maximage maximage2">
+                    <!-- first slide -->
+                    <div>
+                        <img src="images/slide_perfectdress.jpg" alt="Coalesse" width="1600" height="893" />
+                        <div class="container cover slider perfectdress">
+                            <div class="content">
+                                <h1 class="big-title" style="text-indent:40px;">get</h1>
+                                <h1 class="big-title">a perfect</h1>
+                                <h1 class="big-title" style="text-indent:24px; line-height:120px;">dress</h1>
+                                <br>
+                                <br>
+                                <h3 class="big-title-sub">LIMITED TIME?</h3>
+                                <p class="sec-detail">We have a selection of over 5000 gowns and dresses
+                                    <br>in stock that can be shipped to you in 5-7 days.</p>
+                                <span><a href="/shop/quick-ship/" class="btn btn-default">SHOP NOW</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- first slide end-->
+                    <!-- second slide -->
+                    <div>
+                        <img src="images/slide_30dayriskfree.jpg" alt="" width="1600" height="900" />
+                        <div class="thirtyday_slide inner-slide">
+                            <div class="content">
+                                <h1 class="big-title" style="text-indent:40px;">
+                                    <span>30</span>day</h1>
+                                <h1 class="big-title">riskfree</h1>
+                                <p class="sec-detail">At SimplyBridal we understand that planning your special day is
+                                    <br>extremely important and we want to make the
+                                    <br>process as hassle-free as possible. All our products come with a
+                                    <br>30 day risk free guarantee, including return shipping!</p>
+                                <span><a href="/shop/wedding-dresses/" class="btn btn-default">SHOP NOW</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second slide end-->
+                    <!-- third slide -->
+                    <div>
+                        <img src="images/slide_try.jpg" alt="Coalesse" width="1600" height="900" />
+                        <div class="thirtyday_slide try_slide inner-slide">
+                            <div class="content">
+                                <h1 class="big-title">try</h1>
+                                <h1 class="big-title">at home</h1>
+                                <h1 class="big-title">service</h1>
+                                <p class="sec-detail">Our Try at Home Program lets you try our most popular gowns
+                                    <br>from the comforts of your own home. You'll have
+                                    <br>7 days to see if you love it before committing to a purchase.</p>
+                                <span><a href="/shop/try-at-home/" class="btn btn-default">SHOP NOW</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- third slide end-->
+                </div>
+                <div class="arrow-section">
+                    <p class="text-scroll">SCROLL DOWN
+                        <br>FOR STYLING</p>
+                    <a class="scroll-section" data-menuanchor="4thPage" href="#4thpage">
+                        <img class="scrol_arow" src="images/scrol_arow.png" alt="scroll_arrow">
+                    </a>
+                </div>
+            </div>
+            <!-- section2 end -->
+            <!-- section3 start -->
+            <div class="section" id="section3">
+                <div id="styling" class="styling inner-section inner-margin titles">
+                    <div class="container cover">
+                        <h2 class="sec-title">Styling & More</h2>
+                        <p class="sec-detail">To help you prepare for the most extraordinary day of your life,
+                            <br>we've created some styling videos and other tips.</p>
+                        <div class="clearfix"></div>
+                        <br>
+                        <br>
+                        <div id="owl-demo" class="owl-carousel">
+                            <div class="item">
+                                <img class="img-responsive" src="images/video_1.jpg" alt="Video Image">
+                                <span><a class="btn btn-default youtube-play" href="#" data-toggle="modal" data-url='http://www.youtube.com/embed/WU7IUgaIrYk?list=WU7IUgaIrYk&autoplay=1&html5=1' data-target="#video_1st">STYLING with Jess <i class="play_icon"></i></a>
+                                </span>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="images/video_2.jpg" alt="Video Image">
+                                <span><a class="btn btn-default youtube-play" href="#" data-toggle="modal" data-url='http://www.youtube.com/embed/ed5uHzxVfwk?list=PLHjzdAW6oelhYYvEn3qYXkMU4exMR6AsQ&autoplay=1&html5=1' data-target="#video_1st">delivery day <i class="play_icon"></i></a>
+                                </span>
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive" src="images/video_3.jpg" alt="Video Image">
+                                <span><a class="btn btn-default youtube-play" href="#" data-toggle="modal" data-url='http://www.youtube.com/embed/n_vtoKYwEpo?list=PL14816ECA95BAF61A&autoplay=1&html5=1' data-target="#video_1st">Testimonials <i class="play_icon"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- video modal for video-1-->
+                    <div id="video_1st" class="modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <!-- <button type="button" class="close" data-dismiss="modal" style="display:none;"><span aria-hidden="true">&nbsp;</span><span class="sr-only">Close</span></button> -->
+                            <button type="button" class="myclose">
+                                <span aria-hidden="true">&nbsp;</span>
+                                <span class="sr-only">Close</span>
+                            </button>
+                            <div class="modal-body">
+                                <iframe width="962" height="541" src="" id='youtube_player' frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- video modal end -->
+                </div>
+                <div class="arrow-section">
+                    <p class="text-scroll">SCROLL DOWN
+                        <br>FOR MORE INFO</p>
+                    <a class="scroll-section" data-menuanchor="5thPage" href="#5thPage">
+                        <img class="scrol_arow" src="images/scrol_arow.png" alt="scroll_arrow">
+                    </a>
+                </div>
+            </div>
+            <!-- section3 end -->
+            <!-- section4 start -->
+            <div class="section" id="section4">
+                    <div id="about" class="about inner-section inner-margin titles">
+                        <div class="container cover">
+                            <h1 class="big-title">about</h1>
+                        </div>
+                    </div>
+                    <div id="tabs-section" class="tabssection inner-section titles">
+                        <div class="container cover">
+                            <ul class="nav nav-tabs nav-justified" role="tablist">
+                                <li><a href="#who" role="tab" data-toggle="tab">WHO WE ARE</a></li>
+                                <li><a href="#faq" role="tab" data-toggle="tab">FAQ</a></li>
+                                <li><a href="#contact" role="tab" data-toggle="tab">CONTACT US</a></li>
+                                <li><a href="/blog/" target="_blank" role="tab">OUR BLOG <i class="glyphicon glyphicon-play"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- tabs-section end -->
+                    <!-- tabs-content start -->
+                    <div id="tabs-content" class="tabscontent titles">
+                        <div class="container cover">
+                            <div class="tab-content">
+                                <div class="tab-pane inner-margin fade in" id="who">
+                                    <button data-dismiss="tabs-content" data-toggle="tab" class="close" type="button">
+                                        <span aria-hidden="true">｝</span>
+                                        <span class="sr-only">Close</span>
+                                    </button>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h4>OWN A CUSTOM MADE, HIGH QUALITY WEDDING GOWN.<BR>NO MIDDLEMEN. DELIVERED IN 30-35 DAYS. 100% SATISFACTION GUARANTEED.</h4>
+                                            <p>Based in Los Angeles, California, SimplyBridal is about making your wedding process easy and accessible. When our founder Lawrence Ng began researching the bridal space he was surprised by how expensive it was. Many of its aspects seemed overpriced. After watching an episode of Say Yes to the Dress, he realized how important the dress was to the bride and how the bride had to stretch beyond her budget to buy the dress she wanted. This was not right.</p>
+                                            <p>Lawrence decided to start his own bridal company because he felt that women should be able to have not only the dress but also the wedding of their dreams at an accessible price.</p>
+                                            <p>His previous business experience includes Oversee, a company that he co-founded at 21. It ranked the third fastest growing private business in Los Angeles by the Los Angeles Business Journal in 2007. He was also named a winner of the Ernst & Young Entrepreneur of the Year award for the Greater Los Angeles program in the technology category the same year.</p>
+                                            <p>SimplyBridal started off with the simple idea of creating beautiful weddings at reasonable prices. Beginning with wedding dresses, we・ve since added more products and strive to provide outstanding quality without the inconvenience and costs of traditional bridal boutiques and retailers. Our products are always things that we would want our family members and friends to buy, wear, and love.</p>
+                                            <p>That means that we only partner with quality designers that share these values such as Los Angeles-based jewelry designer May Yeung. Our design team includes graduates from the Fashion Institute of Technology in New York and Fashion Institute of Design & Merchandising in Los Angeles. They have designed for BCBGMAXAZRIA and Suzi Chin for Maggy. They source only the finest fabrics and embellishments for SimplyBridal, and sets the same high quality standards that are demanded by the New York fashion scene.</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Many of our products, including our entire jewelry collection, are made in the US. Some of our facilities are located abroad, but we are careful to maintain our rigorous quality controls as well as giving back to local communities.</p>
+                                            <p>Since our creation, we・ve been trying to think up new ways to make the bridal experience more convenient and accessible for our buyers. In 2013, we introduced Quick Ship and Try At Home and Invitations & Gifts to our shoppers.</p>
+                                            <p>Quick Ship allows brides in a hurry to purchase one of our ready-made gowns and receive it within 5-7 days. We・ll make sure the gown is delivered to your doorstep in time for your big day.</p>
+                                            <p>Try At Home takes the customer experience a step further by giving brides a chance to try on up to two SimplyBridal gowns in the comfort of their own home. All we ask is that you send them back within one week from delivery!</p>
+                                            <p>SimplyBridal・s Invitations & Gifts range features more than 1200 products to help every bride achieve her dream wedding without breaking the budget. All our products can but customized to fit your wedding theme, and our flexible return policy will ensure you only get wedding invitations, wedding cards, decorations and gifts that you・re 100% happy with.</p>
+                                            <p>With our reasonable prices, friendly returns policy, and high quality standards, we have our share of fans! We have been featured on wedding blogs such as Style Me Pretty, Wedding Chicks, and the British wedding site, Rock N Roll Bride!</p>
+                                            <p>We now offer a variety of wedding, bridesmaid dresses, and accessories and ship to several countries!</p>
+                                            <p>Our brides get a magical experience without paying for the mystique.</p>    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane inner-margin fade" id="faq">
+                                    <button data-dismiss="tabs-content" class="close" type="button">
+                                        <span aria-hidden="true">｝</span>
+                                        <span class="sr-only">Close</span>
+                                    </button>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <h3>FREQUENTLY ASKED QUESTIONS</h3>
+                                                <p class="title">GENERAL QUESTIONS</p>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">What is SimplyBridal?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">What is Quick Ship?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">What is Try At Home?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">Where are you located?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">I don't live in the U.S. Do you ship to my country?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">How do you keep your prices so low?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">What payment methods do you accept?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">What currencies do you accept?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">I need help. Who do I talk to?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">I contacted you yesterday. Why haven't I heard back yet?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section1" target="_blank">Are there any special offers for a member or veteran of the US Armed Services?</a></li>
+                                                </ul>
+                                                <p class="title">WEDDING AND BRIDESMAID DRESSES</p>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">How long does it take to make my dress?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">My wedding is in two weeks. Help! Can I get my dress quicker?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">How do you choose the dress styles you offer?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Where can I try on your dresses?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">I ordered the wrong dress. Can I cancel my order?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">How will my dress be prepared for shipment?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">I need custom sizing. Is that possible?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Do you have long gold dresses?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Will my dress be ready to wear when it arrives?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">What if I need alterations?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Do you guarantee your dresses?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Where are your wedding dresses photographed?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Will my dress look just like the photograph?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Can I customize my sash?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section2" target="_blank">Do you carry plus sizes?</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p class="title">WEDDING ACCESSORIES</p>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section3" target="_blank">Do you sell anything besides dresses?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section3" target="_blank">What kind of jewelry do you sell?</a></li>
+                                                </ul>
+                                                <p class="title">GIFTS & INVITATIONS</p>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section4" target="_blank">What kind of products do you sell?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section4" target="_blank">How is the check out process different from the main SimplyBridal website?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section4" target="_blank">How does shipping work for Invitations & Gifts?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section4" target="_blank">What is the return and exchange policy for Invitations & Gifts?</a></li>
+                                                </ul>
+                                                <p class="title">SHIPPING AND DELIVERY</p>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section5" target="_blank">I'm located in the Los Angeles area. Can I come to the address listed on your site to avoid shipping fees?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section5" target="_blank">What carriers do you use?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section5" target="_blank">How long does shipping take?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section5" target="_blank">I・m an international customer. Are there any extra taxes or duties that I should know about?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section5" target="_blank">I am currently living on a US military base. Can you ship to me?</a></li>
+                                                </ul>
+                                                <p class="title">RETURNS, EXCHANGES, AND CANCELLATIONS</p>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section6" target="_blank">What is your return policy?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section6" target="_blank">What is your exchange policy?</a></li>
+                                                </ul>
+                                                <p class="title">VENDORS AND WHOLESALERS</p>
+                                                <ul class="list-group">
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section7" target="_blank">Are your dresses available for large orders?</a></li>
+                                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/#section7" target="_blank">I・m a vendor and am interested in working with SimplyBridal.</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane inner-margin fade" id="contact">
+                                        <button data-dismiss="tabs-content" class="close" type="button">
+                                            <span aria-hidden="true">｝</span>
+                                            <span class="sr-only">Close</span>
+                                        </button>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p>
+                                                    Los Angeles Corporate Office<br>
+                                                    117 W. 9th Street, Suite 1009<br>
+                                                    Los Angeles, CA 90015<br>
+                                                    213-688-8513
+                                                </p>
+                                                <p>
+                                                    New York City Office<br>
+                                                    419 Lafayette Street 2nd Floor<br>
+                                                    New York, NY 10003<br>
+                                                    212-203-1865<br>
+                                                </p>
+                                                <p>
+                                                    Los Angeles & New York Showrooms
+                                                    Showroom open by appointment only.
+                                                    Please call 1-800-701-4026
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                <!-- tabs-content end -->
+                <!-- newsletter start -->
+                <div id="newsletter" class="newsletter inner-section inner-margin titles">
+                    <div class="container cover">
+                        <!--
+                        <h2 class="sec-title">Sign Up For Our Newsletter</h2>
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 newsletter_form">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <label for="email">*Email</label>
+                                        <input type="email" class="form-control input-lg" id="email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">*Country</label>
+                                        <div class="styled-select">
+                                            <select class="form-control input-lg">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="zipcode">Zip Code</label>
+                                        <input type="text" class="form-control input-lg" id="zipcode">
+                                    </div>
+                                    <div class="checkbox">
+                                        <input id="checkbox1" type="checkbox" name="checkbox" value="1">
+                                        <label for="checkbox1">
+                                            <span></span>
+                                            <p>Occasional email offers and announcements from our carefully selected partners.</p>
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input id="checkbox2" type="checkbox" name="checkbox" value="2">
+                                        <label for="checkbox2">
+                                            <span></span>
+                                            <p>I understand and agree that registration on or use of the site constitutes agreement to its User Agreement and Privacy Policy.</p>
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                <!-- newsletter end -->
+                <!-- policies-tab start -->
+                <div id="policies" class="policies inner-section titles">
+                    <div class="container cover">
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-4 policy-tabs">
+                                    <h2 class="cat-title">Return Policy</h2>
+                                    <p>At SimplyBridal, we understand that bridal purchases are a big deal. We're so confident in the quality and craftsmanship of our products that we have a global 30 day risk free return policy.</p>
+                                    <a class="various-popups" href="#return-policy">Read The return Policy</a>
+                                    <div id="return-policy" style="display:none;width:748px;">
+                                        <p>At SimplyBridal, we understand that bridal purchases are a big deal.  We're so confident in the quality and craftsmanship of our products that we have a global 30 day risk free returns policy. This applies to all our dresses and accessories.</p>
+                                        <p>Since our dresses are made to order, we cannot exchange orders. Customers will need to cancel or return their order and then place a new one. We do carry some limited inventory, and we are happy to accommodate exchanging a dress for a different size if we have it in stock.</p>
+                                        <p style="font-weight:bold;">SimplyBridal's 3-Step Return Policy</p>
+                                        <ol "list-style-type: decimal;">
+                                            <li>
+                                                <p>If, within 30 days of receipt, you're not happy with your order and would like to return it, contact us at info@simplybridal.com to let us know. Customer service will provide detailed instructions to ensure a return that is quick, traceable and secure at minimal cost. We will email you a prepaid return label. Please note that you MUST use the label provided so that the return is processed correctly.</p>
+                                                <p>If you are unable to use our return label due to extenuating circumstances, please use a tracking option for your package as we cannot be held responsible for packages that are lost, and there may be a delay in crediting your account. Once we receive and process your return, we will credit back your account and reimburse you for your return shipping.</p>
+                                            </li>
+                                            <li>
+                                                </p>Re-pack your product with the original shipping document, original packaging and - of course - the product you want returned. Items must be unworn, unsoiled, and as it was when shipped to you, with tags still attached. All packages must be delivered to a Fedex drop-off location; Fedex pickups are currently unavailable. Return packages must be postmarked within 45 days of receipt using the prepaid shipping label. Otherwise, we may refuse the return and ship you back the item at your expense.</p>
+                                            </li>
+                                            <li>
+                                                <p>We'll issue a refund for the order total after we receive your order and inspect it, which will typically take between 5-7 business days.</p>
+                                            </li>
+                                        </ol>
+                                        <p style="font-weight:bold;">Cancellations</p>
+                                        <p>Your satisfaction is extremely important to us. Orders have been successfully placed once you receive an order number and an email confirmation from SimplyBridal.com. To cancel your order please contact customer service and have your order number ready.</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-lg-4 policy-tabs divider">
+                                    <h2 class="cat-title">Shipping Times</h2>
+                                    <p>Shipping times vary depending on the product, shipping location and whether we have it in stock. Click here to see more details about our shipping times, or feel free to contact our customer support team.</p>
+                                    <a class="various-popups" href="#shipping-policy">READ ABOUT SHIPPING AND DELIVERY</a>
+                                    <div id="shipping-policy" style="display:none;width:748px;">
+                                        <p style="font-weight:bold;">Shipping</p>
+                                        <p>At SimplyBridal, we understand that bridal purchases are a momentous occasion. Our dresses will arrive approximately 30-35 days after the confirmation e-mail regardless of your geographical location. During high season (January through April), dress orders may take up to 60 days. We also have a limited inventory of styles ready for immediate shipment; please see our <a href="http://www.simplybridal.com/shop/quick-ship">Quick Ship</a> page to see our latest selection. Quick Ship and Try At Home Beta Program dresses arrive between 7-14 days.</p>
+                                        <p>Our accessories ship between 7-14 days in the US, and 21-28 days in all other countries.</p>
+                                        <p>Please consult the shipping costs table for your shipping estimate. All values are listed in US dollars, although we do accept the Canadian dollar, the British pound, and the Australian dollar. Shipping costs for all non-US currencies will be calculated upon checkout.</p>
+                                        <table style="border: 1px solid #000000; border-collapse: collapse;" width="300">
+                                        <tbody>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">Order Total Pre-Tax</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">US Shipping Charges</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">International Shipping Charges</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">Try At Home*</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">0</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">N/A</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">0 - 49</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">7</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">15</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">50 - 99</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">15</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">25</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">100 - 149</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">20</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">30</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">150 - 499</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">40</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">50</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">500 - 999</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">60</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">70</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">1000+</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">80</td>
+                                                <td style="border: 1px solid #000000; border-collapse: collapse;">90</td>
+                                            </tr>
+                                        </tbody>
+                                        </table>
+                                        <br>
+                                        <p>*Our Try At Home Beta Program is currently available for brides-to-be in the US only. For more details, please visit our Try At Home page.</p>
+                                        <p>The final shipping cost will be calculated upon checkout, and because we&rsquo;re sure you&rsquo;ll love SimplyBridal, we also have 30 day <a href="http://www.simplybridal.com/shop/returns-and-exchanges/">risk-free returns policy.</a></p>
+                                        <p>We also ship to military bases and PO Boxes via SmartPost FedEx which takes approximately 3 to 5 days longer than regular shipping for both dresses and accessories.</p>
+                                        <p>Please note that our Gifts &amp; Invitations range has separate shipping policies. Please <a href="http://invitations.simplybridal.com/shipping.html">click here</a> to access further information.</p>
+                                        <p>Below is a list of the countries we currently ship to:</p>
+                                        <table style="border: 0px solid #000000; border-collapse: collapse;" width="300">
+                                        <tbody>
+                                        <tr>
+                                            <td style="border: 0px solid #000000; border-collapse: collapse;" valign="top">
+                                                <span style="text-decoration: underline;">North America</span> <br /> United States<br /> Canada<br /> Mexico<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                                            </td>
+                                            <td style="border: 0px solid #000000; border-collapse: collapse;" valign="top">
+                                                <span style="text-decoration: underline;">Europe </span><br /> United Kingdom <br /> Austria<br /> Belgium<br /> Denmark<br /> Finland<br /> France<br /> Germany<br /> Iceland<br /> Ireland<br /> Italy<br /> Luxembourg<br /> Netherlands<br /> Netherlands Antilles<br /> Norway<br /> Poland<br /> Portugal<br /> Spain<br /> Sweden<br /> Switzerland
+                                            </td>
+                                            <td style="border: 0px solid #000000; border-collapse: collapse;" valign="top">
+                                                <span style="text-decoration: underline;">Asia Pacific</span> <br /> Australia<br /> New Zealand<br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-lg-4 policy-tabs">
+                                    <h2 class="cat-title">Measurements</h2>
+                                    <p>Please watch our video on how to properly measure yourself so we can be sure to get you the perfect sized gown</p>
+                                    <a class="fancybox-media" href="http://www.youtube.com/embed/A64T-gVbjJ0">WATCH VIDEO <i class="glyphicon glyphicon-play"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- policies-tab end -->
+                <!-- footer start -->
+                <div id="footer" class="footer inner-section titles">
+                    <div class="container cover footer-top">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-lg-3">
+                                <h3 class="sub-title">NAVIGATE OUR SITE</h3>
+                                <ul class="list-group navigate">
+                                    <li class="list-group-item"><a href="/shop/who-we-are/">About</a></li>
+                                    <li class="list-group-item"><a href="/shop/veils/">Veils</a></li>
+                                    <li class="list-group-item"><a href="/blog/">Blog</a></li>
+                                    <li class="list-group-item"><a href="/shop/bridesmaids/">Bridesmaids</a></li>
+                                    <li class="list-group-item"><a href="/shop/webmaster-resource-center/">Webmaster Resources</a></li>
+                                    <li class="list-group-item"><a href="/bridal-shops.html">Bridal Shops</a></li>
+                                    <li class="list-group-item"><a href="/shop/privacy-policy/">Privacy Policy</a></li>
+                                    <li class="list-group-item"><a href="/shop/press-releases/">Press Releases</a></li>
+                                    <li class="list-group-item"><a href="/shop/contact-us/">Contact</a></li>
+                                </ul>
+                                <div class="listing-tab catalog">
+                                    <h3 class="sub-title">GET YOUR FREE CATALOG</h3>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="/shop/free-catalog">Send Me a Catalog</a></li>
+                                    </ul>
+                                </div>
+                                <div class="listing-tab">
+                                    <h3 class="sub-title">WEDDING DRESSES BY SILHOUETTE</h3>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="/shop/silhouette/a-line">A-Line Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/silhouette/ball-gown">Ball Gown Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/silhouette/empire">Empire Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/silhouette/mermaid-trumpet">Mermaid / Trumpet Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/silhouette/sheath">Sheath Wedding Dresses</a></li>
+                                    </ul>
+                                </div>
+                                <div class="listing-tab">
+                                    <h3 class="sub-title">WEDDING DRESSES
+                                        <br>BY FABRIC</h3>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="/shop/fabric/charmeuse">Charmeuse Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/fabric/chiffon">Chiffon Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/fabric/lace">Lace Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/fabric/organza">Organza Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/fabric/satin">Satin Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/fabric/taffeta">Taffeta Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/shop/fabric/tulle">Tulle Wedding Dresses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-lg-3">
+                                <h3 class="sub-title">NEED-TO-KNOWS</h3>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="/shop/how-to-place-an-order/">How to Place an Order</a></li>
+                                    <li class="list-group-item"><a href="/shop/wedding-dress-alterations/">Alterations</a></li>
+                                    <li class="list-group-item"><a href="/shop/measurements/">How to Measure / Size...</a></li>
+                                    <li class="list-group-item"><a href="/shop/wedding-dress-preservation/">Dress Preservation</a></li>
+                                    <li class="list-group-item"><a href="/shop/glossary/">Glossary</a></li>
+                                    <li class="list-group-item"><a href="/shop/frequently-asked-questions/">FAQ</a></li>
+                                    <li class="list-group-item"><a href="/shop/quality/">Quality</a></li>
+                                </ul>
+                                <div class="listing-tab">
+                                    <h3 class="sub-title">BRIDAL SHOPS</h3>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="/wedding-dresses/atlanta/index.html">Atlanta, GA Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/baltimore/index.html">Baltimore, MD Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/boston-ma/index.html">Boston, MA Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/chicago/index.html">Chicago, IL Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/cleveland/index.html">Cleveland, OH Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/dallas/index.html">Dallas, TX Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/denver/index.html">Denver, CO Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/houston/index.html">Houston, TX Wedding Dresse</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/lasvegas/index.html">Las Vegas, NV Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/losangeles/index.html">Los Angeles, CA Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/memphis/index.html">Memphis, TN Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/miami/index.html">Miami, FL Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/newyork/index.html">New York, NY Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/orlando/index.html">Orlando, FL Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/philadelphia/index.html">Philadelphia, PA Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/phoenix/index.html">Phoenix, AZ Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/portland/index.html">Portland, OR Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/saltlakecity/index.html">Salt Lake City, UT Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/sanfrancisco/index.html">San Francisco, CA Wedding Dresses</a></li>
+                                        <li class="list-group-item"><a href="/wedding-dresses/seattle-wa/index.html">Seattle, WA Wedding Dresses</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-lg-3">
+                                <div class="row">
+                                    <div class="col-sm-6 col-lg-6">
+                                        <h3 class="sub-title">&nbsp;</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a href="#">&nbsp;</a></li>
+                                            <li class="list-group-item"><a href="#">&nbsp;</a></li>
+                                            <li class="list-group-item"><a href="#">&nbsp;</a></li>
+                                            <li class="list-group-item"><a href="#">&nbsp;</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 col-lg-6">
+                                        <h3 class="sub-title">CONNECT</h3>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><a href="http://www.facebook.com/simplybridal">Facebook</a></li>
+                                            <li class="list-group-item"><a href="http://twitter.com/#!/sbridal">Twitter</a></li>
+                                            <li class="list-group-item"><a href="http://plus.google.com/118288286993708395434">Google+</a></li>
+                                            <li class="list-group-item"><a href="http://pinterest.com/simplybridal">Pinterest</a></li>
+                                            <li class="list-group-item"><a href="mailto:sales@simplybridal.com">Email</a></li>
+                                            <li class="list-group-item" style="font-size:12px;color:white;">1-800-701-4026</li>
+                                            <li class="list-group-item"><a class="chat" onclick="return SnapABug.startLink();">Live Chat</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-lg-3">
+                                <h3 class="sub-title">SECURE SHOPPING</h3>
+                                <p>Shop with confidence at SimplyBridal. Our site is security tested on a daily basis. We accept most major credit cards, along with PayPal.</p>
+                                <br>
+                                <a href="#">
+                                    <img class="visa_cards" src="images/visa_cards.jpg" alt="Visa Cards">
+                                </a>
+                                <div class="listing-tab contact-address">
+                                    <h3 class="sub-title">CONTACT US</h3>
+                                    <address>
+                                        Los Angeles Corporate Office
+                                        <br>117 W. 9th Street, Suite 1009
+                                        <br>Los Angeles, CA 90015
+                                        <br>213-688-8513
+                                    </address>
+                                    <br>
+                                    <address>
+                                        New York City Office
+                                        <br>419 Lafayette Street 2nd Floor
+                                        <br>New York, NY 10003
+                                        <br>212-203-1865
+                                    </address>
+                                    <br>
+                                    <address>
+                                        Los Angeles & New York Showrooms
+                                        <br>Showroom open by appointment only.
+                                        <br>
+                                        <abbr title="Phone">Please call</abbr> 1-800-701-4026
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottam inner-section">
+                        <div class="container cover">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-3 col-lg-3">
+                                    <a href="#">
+                                        <img src="images/logo-footer.jpg" alt="Simply Bridal Logo">
+                                    </a>
+                                    <p class="copyright">&copy; 2013 SimplyBridal. All Rights Reserved.</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-lg-3">
+                                    <a href="#">
+                                        <img src="images/business_acredit.png" alt="Business Acredit Logo">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-lg-3">
+                                    <a href="#">
+                                        <img src="images/norton.jpg" alt="Norton Logo">
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-lg-3">
+                                    <ul class="social-icons">
+                                        <li>
+                                            <a class="btn btn-social-icon btn-twitter">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn btn-social-icon btn-facebook">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn btn-social-icon btn-pinterest">
+                                                <i class="fa fa-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="btn btn-social-icon btn-tumblr">
+                                                <i class="fa fa-tumblr"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer end -->
+            </div>
+            <!-- section4 end -->
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.fancybox-media').fancybox({
+            openEffect  : 'none',
+            closeEffect : 'none',
+            helpers : {
+                media : {}
+            }
+        });
+        $(".various-popups").fancybox({
+            maxWidth        : 800,
+            maxHeight    : 600,
+            fitToView    : false,
+            width            : '70%',
+            height        : '70%',
+            autoSize        : false,
+            closeClick    : false,
+            openEffect    : 'none',
+            closeEffect    : 'none'
+        });
+    });
+    </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <!-- To support IE 8 for media queries -->
+        <script src="js/respond.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
+        <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+        <script src="js/jquery.maximage.js" type="text/javascript"></script>
+        <script src="js/owl.carousel.js" type="text/javascript"></script>
+        <script src="js/ios-reorient.js" type="text/javascript"></script>
+        <script src="js/jquery.fittext.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function()
+        {
+            var owl = $("#owl-demo");
+            owl.owlCarousel(
+            {
+                autoPlay: 3000,
+                items: 3, //10 items above 1000px browser width
+                itemsDesktop: [1199, 3], //5 items between 1000px and 901px
+                itemsDesktopSmall: [979, 3], // betweem 900px and 601px
+                navigation: true
+            });
+            window.onresize = doresize;
+            function doresize()
+            {
+                setTimeout(function()
+                {
+                    var outerwidth = $(window).width();
+                    var innerwidth = $('.centerdiv').width();
+                    var final_width;
+                    if (outerwidth == innerwidth)
+                    {
+                        final_width = outerwidth / 2;
+                    }
+                    else
+                    {
+                        final_width = outerwidth - innerwidth;
+                    }
+                    $('.centerdiv').css(
+                    {
+                        position: 'absolute',
+                        left: (final_width) / 2,
+                        top: ($(window).height() - $('.centerdiv').outerHeight()) / 2
+                    });
+                });
+            }
+            doresize();
+            var width = $(window).width(),
+                height = $(window).height();
+            if ((width <= 767))
+            {
+                $('#fullpage').fullpage(
+                {
+                    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage'],
+                    menu: '#menu',
+                    scrollOverflow: false,
+                    slidesNavigation: true,
+                    autoScrolling: false
+                });
+            }
+            else
+            {
+                $('#fullpage').fullpage(
+                {
+                    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                    anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage'],
+                    menu: '#menu',
+                    scrollOverflow: true,
+                    slidesNavigation: true,
+                    autoScrolling: false,
+                    onLeave: function(index, nextIndex, direction)
+                    {
+                        // console.log(index);
+                        // $('.maximage1').removeClass('fixedpos');
+                        // $('.maximage2').removeClass('fixedpos');
+                        // if(index == 1){
+                        //     $('.maximage1').addClass('fixedpos');
+                        //     console.log('First is Fixed');
+                        // }else if(index == 2){
+                        //     $('.maximage2').addClass('fixedpos');
+                        //     console.log('Second is Fixed');
+                        // }
+                    }
+                });
+            }
+            $('.maximage1').maximage(
+            {
+                cycleOptions:
+                {
+                    fx: 'fade',
+                    // speed: 800,
+                    timeout: 0,
+                    pager: '#cycle-nav ul',
+                    pagerAnchorBuilder: function(idx, slide)
+                    {
+                        return '<li><a href="javascript:void(0);"></a></li>';
+                    },
+                    pause: 1,
+                    backgroundSize: 'contain'
+                },
+                // fillElement: '#panel-one',
+                backgroundSize: 'contain',
+                onImagesLoaded: function()
+                {
+                    $('.maximage2').maximage(
+                    {
+                        cycleOptions:
+                        {
+                            fx: 'fade',
+                            // speed: 400,
+                            timeout: 0,
+                            pager: '#cycle-nav2 ul',
+                            pagerAnchorBuilder: function(idx, slide)
+                            {
+                                return '<li><a href="javascript:void(0);"></a></li>';
+                            },
+                            pause: 1
+                        },
+                        // fillElement: '#panel-two',
+                        backgroundSize: 'contain'
+                    });
+                }
+            });
+            jQuery('.in-slide-content').show();
+            setTimeout(function()
+            {
+                $('#fullpage').css('visibility', 'visible');
+                $('.preloader').hide();
+            }, 2000);
+            //resizer();
+        }); //Document Ready Closed
+        $(".sec-detail").fitText(1.1,
+        {
+            minFontSize: '13px',
+            maxFontSize: '18px'
+        });
+        $('.big-title').fitText(1.1,
+        {
+            minFontSize: '35px',
+            maxFontSize: '175px'
+        });
+        $('.big-title-sub').fitText(1.1,
+        {
+            minFontSize: '18px',
+            maxFontSize: '35px'
+        });
+        $('.slide-sec-detail').fitText(1.1,
+        {
+            minFontSize: '15px',
+            maxFontSize: '25px'
+        });
+        $('.sec-title').fitText(1.1,
+        {
+            minFontSize: '25px',
+            maxFontSize: '60px'
+        });
+         //Tabs Closing
+        $('.tab-content .close').on('click', function(e)
+        {
+            $(this).parents('.tab-pane').removeClass('active');
+        });
+         //Youtube Player
+        $('.youtube-play').on('click', function()
+        {
+            var youtube_url = $(this).data('url');
+            console.log(youtube_url);
+            $('#youtube_player').attr('src', youtube_url);
+        });
+        $('#video_1st .close .sr-only').on('click', function(e)
+        {
+            $('#youtube_player').prop('src', '');
+            $('#youtube_player').attr('src', '');
+            $('#youtube_player').removeAttr('src');
+        });
+        $('#video_1st').on('hidden.bs.modal', function()
+        {
+            console.log('Modal Closing!');
+        })
+         $(document).ready(function()
+        {
+            // var ev = new $.Event('classadded'),
+            //     orig = $.fn.removeClass;
+            // $.fn.removeClass = function() {
+            //     $(this).trigger(ev, arguments);
+            //     return orig.apply(this, arguments);
+            // }
+            $('.myclose').on('click', function()
+            {
+                $('#youtube_player').prop('src', '');
+                $('#youtube_player').attr('src', '');
+                $('#youtube_player').removeAttr('src');
+                $('#video_1st').modal('hide');
+            });
+        });
+         // $('#video_1st').on('classadded', function(ev, newClasses) {
+         //     alert('Class Removed!');
+         //     console.log(newClasses + ' added!');
+         //     console.log(this);
+         //     // Do stuff
+         //     // ...
+         // });
+        </script>
+    </body>
+</html>
