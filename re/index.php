@@ -3,7 +3,8 @@
 $d=array(
     array('t'=>'preg_replace',  'n'=>'移除開頭數字',        'e'=>'/^[0-9]+/'                                                                ),
     array('t'=>'preg_replace',  'n'=>'移除數字',            'e'=>'/[0-9]/'                                                                  ),
-    array('t'=>'preg_replace',  'n'=>'分隔符號',            'e'=>'/,(?=,)/'                                                                 ),
+    array('t'=>'preg_replace',  'n'=>'以,做為分隔符號',     'e'=>'/,(?=,)/'                                                                 ),
+    array('t'=>'preg_replace',  'n'=>'只留下英文數字',      'e'=>'#[^A-Za-z0-9]#'                                                           ),
 
     array('t'=>'preg_match',    'n'=>'開頭為特定文字',      'e'=>'/^abc.{1,}$/'                                                             ),
     array('t'=>'preg_match',    'n'=>'首字大英',            'e'=>'/^[A-Z]/'                                                                 ),
