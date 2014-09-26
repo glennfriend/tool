@@ -1,5 +1,5 @@
 npm install grunt grunt-cli
-npm install grunt --save-dev    // ¤£½T©w¬O§_»İ­n
+npm install grunt --save-dev    // ä¸ç¢ºå®šæ˜¯å¦éœ€è¦
 npm i
 
 mkdir from
