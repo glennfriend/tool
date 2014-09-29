@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Css Star Rating" />
+        <title>Star Rating</title>
+        <style>
+        body {
+            margin:0;
+            padding:40px;
+            font:70% Arial, Helvetica, sans-serif;
+        }
+        .rating-box { display:inline-block; width:80px; height:13px; font-size:0; line-height:0; background:url(bkg_rating.png) 0 100% repeat-x; overflow:hidden; }
+        .rating-box .rating { float:left; height:14px; margin: -2px 0 0; background:url(bkg_rating.png) 0 0 repeat-x; }
+        </style>
+    </head>
+    <body>
+        <h1>Pure CSS Star Rating</h1>
+        <div>
+            <span class="rating-box">
+                <span class="rating" style="width:100%;"></span>
+            </span>
+        </div>
+        <div>
+            <span class="rating-box">
+                <span class="rating" style="width:90%;"></span>
+            </span>
+        </div>
+        <div>
+            <span class="rating-box">
+                <span class="rating" style="width:50%;"></span>
+            </span>
+        </div>
+        <div>
+            <span class="rating-box">
+                <span class="rating" style="width:0;"></span>
+            </span>
+        </div>
+    </body>
+</html>
