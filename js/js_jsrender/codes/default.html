@@ -1,3 +1,15 @@
 <div>
-    {{:#index+1}}: <b>{{>name}}</b> ({{>releaseYear}})
+    <b> {{:#index+1}} </b>:
+    {{>name}} or {{attr:name}}
+
+    age {{>age}} (
+        {{if age>=30}}   壯年人
+        {{else age>=18}} 年輕人
+        {{else}}         小孩
+        {{/if}}
+    )
+
+    tech XX {{>tech.length}} have {{>tech[0]}}
+    
+
 </div>

@@ -16,8 +16,7 @@
             var initData = 'codes/default.json';
             loadFile( initTemplate, initData );
 
-            $("#sourceCode").on("keypress", function( event ) {
-                console.log("keypress is " + event.which);
+            $("#sourceCode, #sourceData").on("keypress", function( event ) {
                 if ( event.which == 10 ) {
                     // Ctrl+Enter
                     run();
@@ -30,7 +29,8 @@
         function run()
         {
             var dataString = $("#sourceData").val();
-            var data = JSON.parse(dataString);
+            eval("var data = " + dataString);
+            // var data = JSON.parse(dataString);
 
             var renderSourceCode 
                 = '<script type="text/html" id="myTemplate">'
@@ -69,17 +69,19 @@
             ;
         }
 
+        // custom template function
+        $.views.helpers({
+
+            format: function( val, format ) {
+                console.log(val);
+                console.log(format);
+            }
+
+        });
+
     </script>
 </head>
 <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand">jsRender Demo</a>
-            </div>
-        </div>
-    </div>
 
     <div class="container">
 
@@ -103,7 +105,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
-                    <textarea class="form-control" rows="12" id="sourceCode"></textarea>
+                    <textarea class="form-control" rows="18" id="sourceCode"></textarea>
                 </div>
             </div>
         </div>
@@ -112,7 +114,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div id="sourceCodeDisplay"></div>
-                    <textarea class="form-control" rows="12" id="sourceData"></textarea>
+                    <textarea class="form-control" rows="8" id="sourceData"></textarea>
                 </div>
             </div>
             <div class="col-md-6">

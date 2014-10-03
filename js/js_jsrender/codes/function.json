@@ -1,0 +1,19 @@
+{
+    title: "這只是 demo code",
+    names: [
+        { "name": "John",     "age": "30" },
+        { "name": "Kevin Wu", "age": "22" }
+    ],
+    getDate: function() {
+        return '2014/09/11';
+    },
+    showYoung: function(age) {
+        if ( age>=40 ) {
+            return "壯年人";
+        }
+        else if ( age>=18 ) {
+            return "年輕人";
+        }
+        return "小孩";
+    }
+}

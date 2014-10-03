@@ -1,0 +1,11 @@
+<div>
+    {{>title}} by {{:getDate()}}
+    <br/>
+    {{:showYoung(names[0].age)}}
+    
+    {{if names[0].age==30}}
+        yes
+    {{else}}
+        no
+    {{/if}}
+</div>
