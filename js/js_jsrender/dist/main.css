@@ -1,0 +1,13 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+textarea {
+    font-size: 24px;
+    font-family: pragmata,"Courier New",dina;
+}
+
+#sourceCode{
+    font-size: 16px;
+}
