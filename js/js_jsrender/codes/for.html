@@ -1,0 +1,13 @@
+{{for items}}
+     <li>{{:#index+1}} or {{:#getIndex()+1}} -> {{:#data}}</li>
+{{/for}}
+
+<br/>
+{{for names}}
+     <li>{{:#index+1}} -> {{:#data.name}}</li>
+{{/for}}
+
+<br/>【迴圈內的別名】
+{{for names ~aaa=hello}}
+    <li>{{>#parent.parent.data.hello}} / {{>~aaa}}</li>
+{{/for}}

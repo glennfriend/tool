@@ -1,8 +1,8 @@
 {
-    title: "這只是 demo code",
+    url: "http://www.jsviews.com/#jsrapi",
     names: [
         { "name": "John",     "age": "30" },
-        { "name": "Kevin Wu", "age": "22" }
+        { "name": "Kevin Wu", "age": "50" }
     ],
     getDate: function() {
         return '2014/09/11';
@@ -11,9 +11,6 @@
         if ( age>=40 ) {
             return "壯年人";
         }
-        else if ( age>=18 ) {
-            return "年輕人";
-        }
-        return "小孩";
+        return "年輕人";
     }
 }

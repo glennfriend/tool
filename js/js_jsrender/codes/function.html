@@ -1,11 +1,12 @@
-<div>
-    {{>title}} by {{:getDate()}}
-    <br/>
-    {{:showYoung(names[0].age)}}
-    
-    {{if names[0].age==30}}
-        yes
-    {{else}}
-        no
-    {{/if}}
-</div>
+{{:getDate()}}<br/>
+{{:showYoung(names[0].age)}}
+
+{{if names[0].age==30}}
+    yes
+{{else}}
+    no
+{{/if}}
+<br/>
+
+<a href="{{>url}}" target="_blank">官方網站</a> |
+<a href="http://borismoore.github.io/jsrender/demos/demos.html" target="_blank">更多的Demo</a>

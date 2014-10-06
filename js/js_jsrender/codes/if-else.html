@@ -1,0 +1,15 @@
+age {{>age}}
+    {{if age>=30}}   壯年人
+    {{else age>=18}} 年輕人
+    {{else}}         小孩
+    {{/if}}
+
+<br/>
+{{if getNumber()===1}}  is number
+{{else}}                not is number
+{{/if}}
+
+<br/>
+{{if getChar()==="1"}}  is string
+{{else}}                not is string
+{{/if}}

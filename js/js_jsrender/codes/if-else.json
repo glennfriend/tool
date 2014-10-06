@@ -1,0 +1,11 @@
+{
+    title: "if-else demo",
+    age: 18,
+    study: ['english','math','computer'],
+    getNumber: function() {
+        return 1;
+    },
+    getChar: function() {
+        return "1";
+    }
+}

@@ -1,0 +1,10 @@
+{
+    title: "for demo code",
+    hello: "hi",
+    number: 8,
+    items: ["a", "b", "c"],
+    names: [
+        { "name": "John",     "age": "30" },
+        { "name": "Kevin Wu", "age": "22" }
+    ]
+}

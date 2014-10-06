@@ -1,5 +1,6 @@
 [
-    { "name": "John",     "age": "30", "tech": ["生火","打字"]  },
-    { "name": "Eyes",     "age": "18", "tech": ["吃飯"]         },
-    { "name": "Kevin Wu", "age": "22", "tech": ["打字"]         }
+    {name: "John",     age: "30", tech: ["生火","打字"] },
+    {name: "Eyes",     age: "18", tech: ["吃飯"]        },
+    {name: "baby",     age: "1",  tech: []              },
+    {name: "Kevin Wu", age: "22", tech: ["打字"]        }
 ]

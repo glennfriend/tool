@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="dist/bootstrap-3.2.0-dist/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="dist/main.css" />
     <script type="text/javascript" src="dist/jquery/jquery-1.11.1.js"></script>
-    <script type="text/javascript" src="dist/jsrender/jsrender.js"></script>
+    <script type="text/javascript" src="dist/jquery/jsrender/jsrender.js"></script>
+    <script type="text/javascript" src="dist/jquery/jsrender/range.js"></script>
     <script type="text/javascript" src="dist/main.js"></script>
     <script type="text/javascript">
 
@@ -29,7 +30,7 @@
         function run()
         {
             var dataString = $("#sourceData").val();
-            eval("var data = " + dataString);
+            eval("var data = " + dataString + ";");
             // var data = JSON.parse(dataString);
 
             var renderSourceCode 
@@ -51,13 +52,13 @@
         function loadFile(template,data)
         {
             var templateXhr =
-                $.get( template, function(){} )
+                $.get( template+"?"+Date(), function(){} )
                 .done(function(content) {
                     $("#sourceCode").val(content);
                 })
                 .always(function() {
                     var dataXhr = 
-                        $.get( data, {}, function(){}, 'html' )
+                        $.get( data+"?"+Date(), {}, function(){}, 'html' )
                         .done(function(content) {
                             $("#sourceData").val(content);
                         })
@@ -105,7 +106,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
-                    <textarea class="form-control" rows="18" id="sourceCode"></textarea>
+                    <textarea class="form-control" rows="16" id="sourceCode"></textarea>
                 </div>
             </div>
         </div>
@@ -114,7 +115,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div id="sourceCodeDisplay"></div>
-                    <textarea class="form-control" rows="8" id="sourceData"></textarea>
+                    <textarea class="form-control" rows="14" id="sourceData"></textarea>
                 </div>
             </div>
             <div class="col-md-6">
