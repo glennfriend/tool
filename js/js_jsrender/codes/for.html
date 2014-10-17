@@ -9,5 +9,5 @@
 
 <br/>【迴圈內的別名】
 {{for names ~aaa=hello}}
-    <li>{{>#parent.parent.data.hello}} / {{>~aaa}}</li>
+    <li>{{>#parent.parent.data.hello}} / {{>~root.hello}} / {{>~aaa}}</li>
 {{/for}}
