@@ -1,6 +1,6 @@
 <?php
 
-// set('get_defined_vars', get_defined_vars() ); //¥ýÅª¨ú¨Ï¥Î¹LªºÅÜ¼Æ
+// set('get_defined_vars', get_defined_vars() ); //å…ˆè®€å–ä½¿ç”¨éŽçš„è®Šæ•¸
 init();
 return;
 
@@ -15,6 +15,8 @@ function output( $vars )
 
     unset(
         $vars['GLOBALS'],
+        $vars['_ENV'],
+        $vars['_REQUEST'],
         $vars['_POST'],
         $vars['_GET'],
         $vars['_FILES'],
@@ -22,7 +24,7 @@ function output( $vars )
         $vars['_COOKIE']
     );
 
-    echo '<pre style="background-color:#def;color:#000;text-align:left;font-size:10px;font-family:dina,GulimChe;">';
+    echo '<pre style="background-color:#def;color:#000;text-align:left;font-size:10px;font-family:pragmata,dina,GulimChe;">';
     var_export( $vars );
     echo "</pre>\n";
 
