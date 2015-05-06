@@ -4,9 +4,18 @@
     include_once('libs/ToolBaseObject.class.php');
 
     $post = Array(
-        'key'     => ($_POST['key']!='') ? $_POST['key'] : $_GET['key'],
-        'content' => $_POST['content'],
+        'key'     => '',
+        'content' => '',
     );
+    if ( isset($_POST['key']) ) {
+        $post['key'] = $_POST['key'];
+    }
+    elseif ( isset($_GET['key']) ) {
+        $post['key'] = $_GET['key'];
+    }
+    if ( isset($_POST['content']) ) {
+        $post['content'] = $_POST['content'];
+    }
 
     $toolFilenames = Array();
     foreach( glob(TOOLS_DIRECTORY_FILES) as $file ) {
@@ -32,6 +41,9 @@
     }
 
 
+    $beforeText = '';
+    $text       = '';
+    $afterText  = '';
     if( $post['key'] && $toolFilenames[$post['key']]['pathname'] ) {
         $pathName = $toolFilenames[$post['key']]['pathname'];
         include_once($pathName);
