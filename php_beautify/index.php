@@ -1,5 +1,8 @@
 <?php
 
+    define("DIR_PATH", __DIR__ );
+    ini_set('session.save_path', DIR_PATH . '/tmp');
+
     session_start();
     include 'helper.php';
 
