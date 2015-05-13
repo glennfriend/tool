@@ -1,5 +1,6 @@
 ############################################
 ## 注意!! 只限用於開發環境
-php_value auto_append_file "../tool/livejs.php"
+php_value auto_prepend_file "helper/helper.php"
+php_value auto_append_file  "helper/livejs.php"
 php_flag output_buffering on
 

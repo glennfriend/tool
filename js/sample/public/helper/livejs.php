@@ -4,7 +4,7 @@ date_default_timezone_set('Asia/Taipei');
 ini_set( 'date.timezone', 'Asia/Taipei');
 
 echo '<script type="text/javascript">'
-   . file_get_contents( __DIR__ .'/../public/dist/livejs/live.js')
+   . file_get_contents( __DIR__ .'/../dist/livejs/live.js')
    . '</script>';
 
 $length = ob_get_length();
