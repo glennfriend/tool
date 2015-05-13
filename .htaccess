@@ -5,9 +5,9 @@ Options Indexes
 IndexIgnore favicon.ico .htaccess .DS_Store _htaccess
 
 ##
-IndexStyleSheet _htaccess/htaccess.css
+# IndexStyleSheet _htaccess/htaccess.css
 # HeaderName _htaccess/head.html
-ReadmeName _htaccess/readme.html
+# ReadmeName _htaccess/readme.html
 
 ##
 IndexOptions FancyIndexing
