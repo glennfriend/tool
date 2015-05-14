@@ -26,6 +26,7 @@ gulp.task('watch', function () {
 gulp.task('compile', function () {
     return gulp.src( public_path + "/dist/core.src/*.js")
         .pipe(babel())
+        .on('error', console.error.bind(console))   // TODO: 防止錯誤中斷 node, 但是 compile 功能在發生錯誤之後就會失消, 該問題未獲得解決
         .pipe(gulp.dest( public_path + "/dist/core"));
 });
 

@@ -1,24 +1,34 @@
 class Person
 {
-    constructor(firstName, lastName)
+
+    constructor (name)
     {
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this.name = name
     }
- 
+
     get name()
     {
-        return this.firstName + " " + this.lastName;
+        return `my name is ${this._name}`
     }
- 
+
     set name(name)
     {
-        var names = name.split(" ");
-        this.firstName = names[0];
-        this.lastName = names[1];
+        //[this.firstName, this.lastName] = name.split(" ")
+        this._name = name
     }
+
+    luckNumber()
+    {
+        const PI = 3.141593
+        return PI;
+    }
+
 }
  
-var boy = new Person("Bo-Yi", "Wu");
-boy.name = "Boy Apple";
-console.log(boy.name);
+var boy = new Person("kevin Wu")
+boy.name = "Vivian Li"
+console.log(boy.name)
+console.log(boy)
+console.log(boy.luckNumber())
+
+//SyntaxError

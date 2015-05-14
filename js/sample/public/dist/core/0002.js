@@ -4,37 +4,20 @@ var _createClass = (function () { function defineProperties(target, props) { for
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var Person = (function () {
-    function Person(name) {
-        _classCallCheck(this, Person);
-
-        this.name = name;
+var DefaultHelper = (function () {
+    function DefaultHelper() {
+        _classCallCheck(this, DefaultHelper);
     }
 
-    _createClass(Person, [{
-        key: "name",
-        get: function () {
-            return "my name is " + this._name;
-        },
-        set: function (name) {
-            //[this.firstName, this.lastName] = name.split(" ")
-            this._name = name;
-        }
-    }, {
-        key: "luckNumber",
-        value: function luckNumber() {
-            var PI = 3.141593;
-            return PI;
+    _createClass(DefaultHelper, null, [{
+        key: "getData",
+        value: function getData() {
+            return { x: 1 };
         }
     }]);
 
-    return Person;
+    return DefaultHelper;
 })();
 
-var boy = new Person("kevin Wu");
-boy.name = "Vivian Li";
-console.log(boy.name);
-console.log(boy);
-console.log(boy.luckNumber());
-
-//SyntaxError
+var data = DefaultHelper.getData();
+console.log(data);
