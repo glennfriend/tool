@@ -1,3 +1,9 @@
 'use strict';
 
-console.log('hello world');
+{
+    var welcome = function () {
+        return 'hello world';
+    };
+
+    console.log(welcome());
+}

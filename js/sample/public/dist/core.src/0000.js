@@ -1,1 +1,6 @@
-console.log('hello world');
+{
+    function welcome () {
+        return 'hello world'
+    }
+    console.log( welcome() );
+}
