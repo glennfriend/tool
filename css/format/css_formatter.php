@@ -58,7 +58,7 @@ function css_formatter( $content ) {
                     unset($sp[$i]);
                 }
 
-                if (preg_match('/^[_\*].+/', $sp[$i])) {
+                if ( isset($sp[$i]) && preg_match('/^[_\*].+/', $sp[$i])) {
                     // sort default a/b/c => * => _
                     $ie_hack[] = $sp[$i];
                     unset($sp[$i]);

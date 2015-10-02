@@ -7,7 +7,7 @@ require_once("css_formatter.php");
 
 
 
-$s = $_POST['s'];
+$s = isset($_POST['s']) ? $_POST['s'] : null;
 $s2 = css_inline($s);
 $s3 = css_formatter($s2);
 if( ''==$s ) {
