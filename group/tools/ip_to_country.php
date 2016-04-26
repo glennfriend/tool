@@ -6,7 +6,7 @@ class ToolObject extends ToolBaseObject
     public function init()
     {
         if( !$this->getText() ) {
-            $this->setText( time() );
+            $this->setText('127.0.0.1');
         }
     }
 
@@ -33,7 +33,7 @@ class ToolObject extends ToolBaseObject
         // CSV: http://ip-to-country.directi.com/
         // Author: andr3a [ www.3site.it ] [ andrea@3site.it ]
         // Author: mdsjack [ www.mdsjack.tk/ ] [ mdsjack@iol.it ]
-        $ip = explode("[.]", $ip);
+        $ip = explode(".", $ip);
         $ip = ($ip[0] * 16777216) + ($ip[1] * 65536) + ($ip[2] * 256) + ($ip[3]);
         //echo $ip.'<br><br>';
         $csv = fopen($where."ip-to-country.csv", "r");

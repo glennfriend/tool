@@ -16,7 +16,7 @@ class ToolObject extends ToolBaseObject
         $codeDesinence = '?'.'>';
         
         $text = trim($this->getText());
-        if( $codePrefix != strtolower(substr($this->text,0,5)) ) {
+        if( $codePrefix != strtolower(substr($text,0,5)) ) {
             $text = $codePrefix ."\n". $text ."\n". $codeDesinence ;
         }
 

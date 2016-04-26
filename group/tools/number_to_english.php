@@ -13,7 +13,7 @@ class ToolObject extends ToolBaseObject
     public function run()
     {
         $text = $this->getText();
-        $datas = split("\n",$text);
+        $datas = explode("\n",$text);
 
         $results = Array();
         foreach( $datas as $data ) {

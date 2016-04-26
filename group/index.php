@@ -1,5 +1,8 @@
 <?php
 
+    date_default_timezone_set('Asia/Taipei');
+    ini_set('date.timezone',  'Asia/Taipei');
+
     define('TOOLS_DIRECTORY_FILES','tools/*.php');
     include_once('libs/ToolBaseObject.class.php');
 
@@ -81,7 +84,7 @@
         ?>
         <br />
         <input type="submit" value=" submit " />
-        <input type="button" value=" clear " onclick="document.getElementById('content').innerHTML='';" />
+        <input type="button" value=" clear " onclick="document.forms[0].content.value = '';" />
         <div id="beforeText"><?php echo $beforeText; ?></div>
         <textarea id="content" name="content" style="width:100%; height:300px;"><?php echo $text; ?></textarea>
         <div id="afterText"><?php echo $afterText; ?></div>
