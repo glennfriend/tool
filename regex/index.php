@@ -64,14 +64,19 @@ function tester(id,t,e,v) {
 foreach ( $d as $index => $item ) {
 
     $item['id'] = 'tag_' . $index;
-    if( 'preg_replace'==$item['t'] ) {
+    $postId = '';
+    if (isset($_POST[$item['id']])) {
+        $postId = $_POST[$item['id']];
+    }
+    
+    if ('preg_replace'==$item['t']) {
 
-        $item['show']=preg_replace( $item['e'] , '' , $_POST[ $item['id'] ] );
+        $item['show']=preg_replace( $item['e'] , '' , $postId );
 
     }
-    elseif( 'preg_match'==$item['t'] ) {
+    elseif ('preg_match'==$item['t']) {
 
-        $item['show']=preg_match( $item['e'] , $_POST[ $item['id'] ] );
+        $item['show']=preg_match( $item['e'] , $postId );
 
     }
     else {
@@ -87,10 +92,19 @@ foreach ( $d as $index => $item ) {
 
 echo "<table>";
 foreach ( $d as $index => $item ) {
-    $id    = $item['id'];
+
+    $id = '';
+    if (isset($item['id'])) {
+        $id = $item['id'];
+    }
+
+    $show = '';
+    if (isset($item['show'])) {
+        $show  = $item['show'];
+    }
+
     $type  = $item['t'];
-    $er    = $item['e'];
-    $show  = $item['show'];
+    $er = $item['e'];
     echo <<<EOD
         <tr>
             <td><input onkeydown='if(event.keyCode==13){ tester("{$id}","{$type}","{$er}",this.value ); }' ></td>

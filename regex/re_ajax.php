@@ -1,4 +1,6 @@
 <?php /* 請使用 utf-8 格式配合原本的呼叫程式 */
+
+$show = '';
 if( !$_POST['id'] || !$_POST['t'] || !$_POST['e'] ) {
     echo "<pre>";
     print_r($_POST);
@@ -20,4 +22,3 @@ if( !$_POST['id'] || !$_POST['t'] || !$_POST['e'] ) {
 }
 
 echo $show;
-?>
