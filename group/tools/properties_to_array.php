@@ -5,7 +5,6 @@ class ToolObject extends ToolBaseObject
 
     public function init()
     {
-
         ini_set("arg_seperator.output", "&amp;");
         ini_set("magic_quotes_runtime", 0 );
         ini_set("magic_quotes_gpc", true );
@@ -18,14 +17,14 @@ class ToolObject extends ToolBaseObject
     function run()
     {
         $text = $this->getText();
-
         $text = unserialize($text);
-        ob_start();
-        print_r( $text );
-        $html = ob_get_contents();
-        ob_end_clean();
 
-        $this->setBeforeText( '<pre>'.$html.'</pre>' );
+        $this->setBeforeText(
+            '<pre>'
+                . print_r($text, true)
+                . json_encode($text, JSON_PRETTY_PRINT)
+            .'</pre>'
+        );
     }
 
 }
