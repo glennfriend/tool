@@ -27,11 +27,8 @@
         $filename = mb_substr($file, strrpos($file, '/') + 1);
 
         $show = mb_substr($filename,0,(mb_strlen($filename)-4));
-        if( 'UTF-8' != mb_detect_encoding($show, 'UTF-8, BIG-5') ) {
+        if ('UTF-8' != mb_detect_encoding($show, 'UTF-8, BIG-5')) {
             $show = mb_convert_encoding($show, "UTF-8", "BIG5");  // big5 to utf-8
-        }
-        else {
-            $show = $show;
         }
 
         $toolFilenames[$key] = Array(
@@ -67,7 +64,7 @@
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js'></script>
     <style type="text/css">
         *,body {
-            font-size:12px; 
+            font-size:12px;
         }
         textarea {
             border:1px solid #000;
