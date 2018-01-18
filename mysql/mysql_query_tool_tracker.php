@@ -74,7 +74,14 @@ foreach ($sqlItems as $index => $sqlItem) {
     }
 
     if ($title) {
-        echo "==== {$title} ====\n";
+        //echo "============================================================\n";
+        //echo "--> {$title} \n";
+        //echo "============================================================\n";
+
+        echo "#\n";
+        echo "# {$title} \n";
+        echo "#\n";
+
     }
 
     $sql = filterText($sql);
