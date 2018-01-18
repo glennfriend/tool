@@ -31,69 +31,70 @@ EOD
     return $items;
 }
 
-
-$sqlItems = getSqlItems();
-
-
 // --------------------------------------------------------------------------------
-//  test SQL
+// 
 // --------------------------------------------------------------------------------
-if (! $sqlItems) {
-   $sqlItems = ["show databases \G"];
+function main()
+{
+    $sqlItems = getSqlItems();
+    if (! $sqlItems) {
+        $sqlItems = [
+            "show databases";
+            "show databases \G",
+        ];
+    }
+
+    // --------------------------------------------------------------------------------
+    //  validate
+    // --------------------------------------------------------------------------------
+    foreach ($sqlItems as $index => $sqlItem) {
+
+        if (count($sqlItem)>1) {
+            $title  = $sqlItem[0];
+            $sql    = $sqlItem[1];
+        }
+        else {
+            $title = '';
+            $sql = $sqlItem[0];
+        }
+        validateTextAndError($sql);
+    }
+
+    // --------------------------------------------------------------------------------
+    //  start
+    // --------------------------------------------------------------------------------
+    foreach ($sqlItems as $index => $sqlItem) {
+
+        if (count($sqlItem)>1) {
+            $title  = $sqlItem[0];
+            $sql    = $sqlItem[1];
+        }
+        else {
+            $title = '';
+            $sql = $sqlItem[0];
+        }
+
+        if ($title) {
+            echo "#\n";
+            echo "# {$title} \n";
+            echo "#\n";
+        }
+
+        $sql = filterText($sql);
+        // echo $sql . "\n" . "==========\n";
+        echo sqlQuery($sql);
+        echo "\n";
+    }
 }
-
-// --------------------------------------------------------------------------------
-//  start
-// --------------------------------------------------------------------------------
-$queryContent = tryFirstSqlCommand();
-
-//
-foreach ($sqlItems as $index => $sqlItem) {
-
-    if (count($sqlItem)>1) {
-        $title  = $sqlItem[0];
-        $sql    = $sqlItem[1];
-    }
-    else {
-        $title = '';
-        $sql = $sqlItem[0];
-    }
-    validateTextAndError($sql);
-}
-
-//
-foreach ($sqlItems as $index => $sqlItem) {
-
-    if (count($sqlItem)>1) {
-        $title  = $sqlItem[0];
-        $sql    = $sqlItem[1];
-    }
-    else {
-        $title = '';
-        $sql = $sqlItem[0];
-    }
-
-    if ($title) {
-        //echo "============================================================\n";
-        //echo "--> {$title} \n";
-        //echo "============================================================\n";
-
-        echo "#\n";
-        echo "# {$title} \n";
-        echo "#\n";
-
-    }
-
-    $sql = filterText($sql);
-    // echo $sql . "\n" . "==========\n";
-    echo sqlQuery($sql);
-    echo "\n";
-}
+main();
+tryFirstSqlCommand();
 exit;
+
+
 
  
 // --------------------------------------------------------------------------------
-// 
+//  private
 // --------------------------------------------------------------------------------
 function getLoginPath()
 {
@@ -156,9 +157,6 @@ function validateTextAndError($text)
     }
 }
 
-// --------------------------------------------------------------------------------
-// 
-// --------------------------------------------------------------------------------
 /**
  * 試下一個指令, 看有沒有權限
  */
