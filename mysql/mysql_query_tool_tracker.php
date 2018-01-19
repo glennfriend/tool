@@ -5,25 +5,53 @@ function getSqlItems()
 {
     $items = [];
     $items[] = [
-        'category = rentown.net', <<<EOD
+        'rentown.net', <<<EOD
 
         USE `tracker`;
-        select id, name, category, created_at, url
+        select  id, name,
+                SUBSTR(created_at,6,11) as _created_at,
+                CONCAT(SUBSTR(uuid,1,8),"..") as _uuid,
+                ip,
+                REPLACE(
+                    REPLACE(
+                        url, "http://www.rentown.net/", "___//"
+                    ) ,     "https://www.rentown.net/", "_s_//"
+                ) as _url
         from events
         where category="rentown.net"
-        order by id desc limit 15;
+        order by id desc limit 18;
 
 EOD
 ];
 
     $items[] = [
-        'category != rentown.net', <<<EOD
+        'rentownhomespro.com', <<<EOD
 
         USE `tracker`;
-        select id, name, category, created_at, url
+        select  id, name,
+                SUBSTR(created_at,6,11) as _created_at,
+                CONCAT(SUBSTR(uuid,1,8),"..") as _uuid,
+                ip,
+                REPLACE(
+                    REPLACE(
+                        url, "http://rentownhomespro.com/", "___//"
+                    ) ,     "https://rentownhomespro.com/", "_s_//"
+                ) as _url
         from events
-        where category != "rentown.net"
-        order by id desc limit 15;
+        where category="rentownhomespro.com"
+        order by id desc limit 18;
+
+EOD
+];
+
+    $items[] = [
+        'other category', <<<EOD
+
+        USE `tracker`;
+        select id, name, category, created_at, uuid, ip
+        from events
+        where category != "rentown.net" and category != "rentownhomespro.com"
+        order by id desc limit 2;
 
 EOD
 ];
@@ -38,9 +66,9 @@ function main()
 {
     $sqlItems = getSqlItems();
     if (! $sqlItems) {
-        $sqlItems = [
-            "show databases";
-            "show databases \G",
+        $sqlItems[] = [
+            "show databases",
+            "show databases \G"
         ];
     }
 
@@ -75,9 +103,9 @@ function main()
         }
 
         if ($title) {
-            echo "#\n";
-            echo "# {$title} \n";
-            echo "#\n";
+            // echo "### \n";
+            echo "### {$title} \n";
+            //echo "### \n";
         }
 
         $sql = filterText($sql);
