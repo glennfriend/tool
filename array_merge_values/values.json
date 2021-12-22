@@ -1,0 +1,132 @@
+[
+    {
+        "id": "12208189093",
+        "name": "BackgroundCheck_Names+BGC | Partial BrM | AllDev | SEED",
+        "totalAdGroups": 1
+    },
+    {
+        "id": "12208189096",
+        "name": "CriminalRecord_Names+CR | Partial BrM | AllDev | SEED",
+        "totalAdGroups": 1
+    },
+    {
+        "id": "12208189099",
+        "name": "FullName+BGC | BrD | AllDev | SEED",
+        "totalAdGroups": 1
+    },
+    {
+        "id": "12766136082",
+        "name": "CriminalRecord_Names+CR | Partial BrM | AllDev | #Full_Output | 210416",
+        "totalAdGroups": 19998
+    },
+    {
+        "id": "12766257482",
+        "name": "BackgroundCheck_Names+BGC | Partial BrM | AllDev | #Full_Output | 210415",
+        "totalAdGroups": 19901
+    },
+    {
+        "id": "12767007265",
+        "name": "FullName+BGC | BrD | AllDev | #Full_Output | 210416",
+        "totalAdGroups": 19999
+    },
+    {
+        "id": "13241495169",
+        "name": "FullName+BGC | BrD | AllDev | SEED #6 | 210525",
+        "totalAdGroups": 7181
+    },
+    {
+        "id": "13241495172",
+        "name": "FullName+BGC | BrD | AllDev | SEED #2 | 210525",
+        "totalAdGroups": 7907
+    },
+    {
+        "id": "13241501253",
+        "name": "FullName+BGC | BrD | AllDev | SEED #3 | 210525",
+        "totalAdGroups": 7752
+    },
+    {
+        "id": "13241501259",
+        "name": "FullName+BGC | BrD | AllDev | SEED #5 | 210525",
+        "totalAdGroups": 7388
+    },
+    {
+        "id": "13241501262",
+        "name": "FullName+BGC | BrD | AllDev | SEED #8 | 210525",
+        "totalAdGroups": 6827
+    },
+    {
+        "id": "13241540085",
+        "name": "FullName+BGC | BrD | AllDev | SEED #12 | 210525",
+        "totalAdGroups": 2671
+    },
+    {
+        "id": "13241540088",
+        "name": "FullName+BGC | BrD | AllDev | SEED #18 | 210525",
+        "totalAdGroups": 2508
+    },
+    {
+        "id": "13241540589",
+        "name": "FullName+BGC | BrD | AllDev | SEED #10 | 210525",
+        "totalAdGroups": 2824
+    },
+    {
+        "id": "13241540601",
+        "name": "FullName+BGC | BrD | AllDev | SEED #11 | 210525",
+        "totalAdGroups": 2721
+    },
+    {
+        "id": "13241540604",
+        "name": "FullName+BGC | BrD | AllDev | SEED #14 | 210525",
+        "totalAdGroups": 2537
+    },
+    {
+        "id": "13241540610",
+        "name": "FullName+BGC | BrD | AllDev | SEED #17 | 210525",
+        "totalAdGroups": 2523
+    },
+    {
+        "id": "13243573889",
+        "name": "FullName+BGC | BrD | AllDev | SEED #16 | 210525",
+        "totalAdGroups": 2429
+    },
+    {
+        "id": "13243574045",
+        "name": "FullName+BGC | BrD | AllDev | SEED #19 | 210525",
+        "totalAdGroups": 2530
+    },
+    {
+        "id": "13244609230",
+        "name": "FullName+BGC | BrD | AllDev | SEED #9 | 210525",
+        "totalAdGroups": 6556
+    },
+    {
+        "id": "13244609440",
+        "name": "FullName+BGC | BrD | AllDev | SEED #1 | 210525",
+        "totalAdGroups": 8177
+    },
+    {
+        "id": "13244609443",
+        "name": "FullName+BGC | BrD | AllDev | SEED #0 | 210525",
+        "totalAdGroups": 8333
+    },
+    {
+        "id": "13244609446",
+        "name": "FullName+BGC | BrD | AllDev | SEED #4 | 210525",
+        "totalAdGroups": 7671
+    },
+    {
+        "id": "13244609449",
+        "name": "FullName+BGC | BrD | AllDev | SEED #7 | 210525",
+        "totalAdGroups": 6785
+    },
+    {
+        "id": "13244651932",
+        "name": "FullName+BGC | BrD | AllDev | SEED #13 | 210525",
+        "totalAdGroups": 2536
+    },
+    {
+        "id": "13244652148",
+        "name": "FullName+BGC | BrD | AllDev | SEED #15 | 210525",
+        "totalAdGroups": 2522
+    }
+]

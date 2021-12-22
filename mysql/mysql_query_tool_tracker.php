@@ -8,7 +8,7 @@ function getSqlItems()
         'rentown.net', <<<EOD
 
         USE `tracker`;
-        select  id, name,
+        select  name,
                 SUBSTR(created_at,6,11) as _created_at,
                 CONCAT(SUBSTR(uuid,1,8),"..") as _uuid,
                 ip,
@@ -25,10 +25,21 @@ EOD
 ];
 
     $items[] = [
+        'rentown.net count', <<<EOD
+
+        USE `tracker`;
+        select  count(*) as total
+        from events
+        where category="rentown.net"
+
+EOD
+];
+
+    $items[] = [
         'rentownhomespro.com', <<<EOD
 
         USE `tracker`;
-        select  id, name,
+        select  name,
                 SUBSTR(created_at,6,11) as _created_at,
                 CONCAT(SUBSTR(uuid,1,8),"..") as _uuid,
                 ip,
@@ -45,6 +56,18 @@ EOD
 ];
 
     $items[] = [
+        'rentownhomespro.com count', <<<EOD
+
+        USE `tracker`;
+        select  count(*) as total
+        from events
+        where category="rentownhomespro.com"
+
+EOD
+];
+
+    /*
+    $items[] = [
         'other category', <<<EOD
 
         USE `tracker`;
@@ -55,6 +78,7 @@ EOD
 
 EOD
 ];
+    */
 
     return $items;
 }
